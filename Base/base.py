@@ -1,3 +1,5 @@
+import logging
+
 from selenium.webdriver.support.wait import WebDriverWait
 from Base.driver import Driver
 import time
@@ -16,6 +18,7 @@ class Base:
         :param poll_frequency: 搜索间隔
         :return: 定位对象
         """
+        logging.info("操作元素:{}".format(loc))
         return WebDriverWait(self.driver, timeout, poll_frequency).until(lambda x: x.find_element(*loc))
 
     def search_eles(self, loc, timeout=5, poll_frequency=1.0):
@@ -26,6 +29,7 @@ class Base:
         :param poll_frequency: 搜索间隔
         :return: 定位对象列表
         """
+        logging.info("操作一组元素:{}".format(loc))
         return WebDriverWait(self.driver, timeout, poll_frequency).until(lambda x: x.find_elements(*loc))
 
     def click_ele(self, loc, timeout=5, poll_frequency=1.0):
@@ -36,6 +40,7 @@ class Base:
         :param poll_frequency: 搜索间隔
         :return:
         """
+        logging.info("执行点击操作")
         self.search_ele(loc, timeout, poll_frequency).click()
 
     def send_ele(self, loc, text, timeout=5, poll_frequency=1.0):
@@ -47,6 +52,7 @@ class Base:
         :param poll_frequency: 搜索间隔
         :return:
         """
+        logging.info("执行输入动作，输入内容为:{}".format(text))
         # 定位
         ele = self.search_ele(loc, timeout, poll_frequency)
         # 清空
@@ -62,6 +68,7 @@ class Base:
         :param poll_frequency:
         :return:
         """
+        logging.info("执行清空操作")
         self.search_ele(loc, timeout, poll_frequency).clear()
 
     # 封装滑动方法
@@ -72,6 +79,7 @@ class Base:
         :param tag:1:向上 2:向下 3:向左 4:向右
         :return:
         """
+        logging.info("执行滑动操作{},滑动时间为{}".format(tag,duration))
         # 获取屏幕分辨率
         size = self.driver.get_window_size()
         # 宽

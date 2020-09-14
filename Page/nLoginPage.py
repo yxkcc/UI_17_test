@@ -1,14 +1,17 @@
 """未登录页面元素操作"""
 from Base.base import Base
 from .pageElements import PageElements
+import logging
 
 
 class NLoginPage(Base):
     def __init__(self):
         super().__init__()
+        logging.info("登录页面")
 
     def click_login_btn(self):
         """点击登录按钮"""
+        logging.info("点击登录按钮")
         self.click_ele(PageElements.login_btn)
 
     def send_phone(self, text):
@@ -17,6 +20,7 @@ class NLoginPage(Base):
         :param text: 用户手机号
         :return:
         """
+        logging.info("输入手机号:{}".format(text))
         self.send_ele(PageElements.phone_input, text)
 
     def clear_phone(self):
@@ -33,14 +37,17 @@ class NLoginPage(Base):
         :param word: 密码
         :return:
         """
+        logging.info("输入密码:{}".format(word))
         self.send_ele(PageElements.password_input, word)
 
     def click_close_login(self):
         """点击关闭登录"""
+        logging.info("点击关闭登录")
         self.click_ele(PageElements.close_login)
 
     def login_operation(self, num, pwd):
         """登录操作"""
+        logging.info("登录操作")
         # 输入手机号
         self.send_phone(num)
         # 输入密码

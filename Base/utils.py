@@ -9,7 +9,7 @@ def log_conf():
     # 声明处理器 -控制台
     sh = logging.StreamHandler()
     # 声明处理器 -文件
-    trfh = logging.handlers.TimedRotatingFileHandler(filename="./hm.log", when="midnight", interval=1, backupCount=7,
+    trfh = logging.handlers.TimedRotatingFileHandler(filename="./Log/hm.log", when="midnight", interval=1, backupCount=7,
                                                      encoding="utf-8")
     # 格式化字符串
     fmt = "%(asctime)s - %(levelname)s - [%(filename)s - %(funcName)s - %(lineno)d] - %(message)s"

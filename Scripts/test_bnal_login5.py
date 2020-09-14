@@ -8,6 +8,7 @@ from Base.base import Base
 from Base.data import Data
 from Page.pageElements import PageElements
 import pytest
+import logging
 
 
 # 获取数据
@@ -57,6 +58,7 @@ class TestLogin3:
     @pytest.mark.parametrize("user_phone, password,is_true", get_data())
     def test_login_s(self, user_phone, password, is_true):
         """判断登录成功方法"""
+        logging.info('输入账号:{}，输入密码:{}'.format(user_phone, password))
         # 调用登录方法
         PageFactory.get_n_login().login_operation(user_phone, password)
         # 判断登录是否成功
