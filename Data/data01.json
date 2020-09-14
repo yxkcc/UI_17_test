@@ -1,0 +1,34 @@
+{
+  "login_data": [
+    {
+      "desc": "账号密码正确",
+      "phone": "13862867164",
+      "password": "5201314yxk",
+      "is_true": true
+    },
+    {
+      "desc": "账号前加空格",
+      "phone": " 13862867164",
+      "password": "5201314yxk",
+      "is_true": true
+    },
+    {
+      "desc": "账号后加空格",
+      "phone": "13862867164 ",
+      "password": "5201314yxk",
+      "is_true": true
+    },
+    {
+      "desc": "错误账号",
+      "phone": "13862867165",
+      "password": "5201314yxk",
+      "is_true": false
+    },
+    {
+      "desc": "错误密码",
+      "phone": "13862867164",
+      "password": "5201314yx",
+      "is_true": false
+    }
+  ]
+}
