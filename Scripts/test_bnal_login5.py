@@ -9,6 +9,7 @@ from Base.data import Data
 from Page.pageElements import PageElements
 import pytest
 import logging
+import allure
 
 
 # 获取数据
@@ -55,6 +56,7 @@ class TestLogin3:
         else:
             print('\n登出成功')
 
+    @allure.severity(allure.severity_level.CRITICAL)
     @pytest.mark.parametrize("user_phone, password,is_true", get_data())
     def test_login_s(self, user_phone, password, is_true):
         """判断登录成功方法"""
@@ -68,6 +70,8 @@ class TestLogin3:
                 Base().search_ele(PageElements.user_name)
             except:
                 print('\n登录失败')
+                # 添加截图
+                allure.attach(Base.driver.get_screenshot_as_png(), "截图", allure.attachment_type.PNG)
                 assert False
             else:
                 print('\n登录成功')
@@ -84,6 +88,8 @@ class TestLogin3:
                 assert True
             else:
                 print('\n登录成功')
+                # 添加截图
+                allure.attach(Base.driver.get_screenshot_as_png(), "截图", allure.attachment_type.PNG)
                 assert False
 
 # if __name__ == '__main__':

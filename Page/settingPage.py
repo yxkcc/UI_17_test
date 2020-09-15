@@ -3,6 +3,8 @@
 """
 import logging
 
+import allure
+
 from Base.base import Base
 from .pageElements import PageElements
 
@@ -13,16 +15,19 @@ class SettingPage(Base):
         super().__init__()
         logging.info("设置页面")
 
+    @allure.step("点击退出")
     def click_log_off(self):
         """点击退出"""
         logging.info("点击退出")
         self.click_ele(PageElements.log_off)
 
+    @allure.step("点击退出提示确认")
     def click_quit_msg_confirm(self):
         """点击退出提示确认"""
         logging.info("点击退出提示确认")
         self.click_ele(PageElements.quit_msg_confirm)
 
+    @allure.step("垂直向上滑动")
     def swipe_screen_down(self):
         """垂直向上滑动"""
         logging.info("垂直向上滑动")

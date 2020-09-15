@@ -1,340 +1,897 @@
-2020-09-14 19:32:48,144 - INFO - [homePage.py - __init__ - 15] - 首页
-2020-09-14 19:32:48,145 - INFO - [homePage.py - close_update_btn - 34] - 判断，关闭更新提示
-2020-09-14 19:32:48,145 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@content-desc='关闭对话框']")
-2020-09-14 19:32:48,740 - INFO - [homePage.py - click_close_update - 19] - 点击 “x” 
-2020-09-14 19:32:48,741 - INFO - [base.py - click_ele - 43] - 执行点击操作
-2020-09-14 19:32:48,741 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@content-desc='关闭对话框']")
-2020-09-14 19:32:48,816 - INFO - [homePage.py - __init__ - 15] - 首页
-2020-09-14 19:32:48,817 - INFO - [homePage.py - click_user_navigation - 24] - 点击 “我” 
-2020-09-14 19:32:48,817 - INFO - [base.py - click_ele - 43] - 执行点击操作
-2020-09-14 19:32:48,817 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='我']")
-2020-09-14 19:32:49,382 - INFO - [goLoginPage.py - __init__ - 13] - 获取去登录页面
-2020-09-14 19:32:49,382 - INFO - [goLoginPage.py - click_go_to_login - 17] - 点击 “已有账号，去登录” 
-2020-09-14 19:32:49,383 - INFO - [base.py - click_ele - 43] - 执行点击操作
-2020-09-14 19:32:49,383 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/textView1')
-2020-09-14 19:32:50,667 - INFO - [test_bnal_login5.py - test_login_s - 61] - 输入账号:13862867164，输入密码:5201314yxk
-2020-09-14 19:32:50,667 - INFO - [nLoginPage.py - __init__ - 10] - 登录页面
-2020-09-14 19:32:50,668 - INFO - [nLoginPage.py - login_operation - 50] - 登录操作
-2020-09-14 19:32:50,668 - INFO - [nLoginPage.py - send_phone - 23] - 输入手机号:13862867164
-2020-09-14 19:32:50,668 - INFO - [base.py - send_ele - 55] - 执行输入动作，输入内容为:13862867164
-2020-09-14 19:32:50,668 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/logon_account_textview')
-2020-09-14 19:32:52,846 - INFO - [nLoginPage.py - send_password - 40] - 输入密码:5201314yxk
-2020-09-14 19:32:52,847 - INFO - [base.py - send_ele - 55] - 执行输入动作，输入内容为:5201314yxk
-2020-09-14 19:32:52,847 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/logon_password_textview')
-2020-09-14 19:32:53,949 - INFO - [nLoginPage.py - click_login_btn - 14] - 点击登录按钮
-2020-09-14 19:32:53,949 - INFO - [base.py - click_ele - 43] - 执行点击操作
-2020-09-14 19:32:53,949 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='登录']")
-2020-09-14 19:32:54,480 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/tv_user_nikename')
-2020-09-14 19:32:55,648 - INFO - [yLoginPage.py - __init__ - 13] - 已登录页面
-2020-09-14 19:32:55,648 - INFO - [yLoginPage.py - click_setting_btn - 17] - 点击设置按钮
-2020-09-14 19:32:55,648 - INFO - [base.py - click_ele - 43] - 执行点击操作
-2020-09-14 19:32:55,648 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/ymtitlebar_left_btn_image')
-2020-09-14 19:32:55,698 - INFO - [settingPage.py - __init__ - 14] - 设置页面
-2020-09-14 19:32:55,698 - INFO - [settingPage.py - log_out_operation - 33] - 登出操作
-2020-09-14 19:32:55,698 - INFO - [settingPage.py - swipe_screen_down - 28] - 垂直向上滑动
-2020-09-14 19:32:55,699 - INFO - [base.py - swipe_screen - 82] - 执行滑动操作1,滑动时间为1500
-2020-09-14 19:32:59,154 - INFO - [settingPage.py - click_log_off - 18] - 点击退出
-2020-09-14 19:32:59,155 - INFO - [base.py - click_ele - 43] - 执行点击操作
-2020-09-14 19:32:59,155 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='退出']")
-2020-09-14 19:32:59,299 - INFO - [settingPage.py - click_quit_msg_confirm - 23] - 点击退出提示确认
-2020-09-14 19:32:59,300 - INFO - [base.py - click_ele - 43] - 执行点击操作
-2020-09-14 19:32:59,300 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='确认']")
-2020-09-14 19:33:00,964 - INFO - [homePage.py - __init__ - 15] - 首页
-2020-09-14 19:33:00,965 - INFO - [homePage.py - get_user_navigation_checked - 29] - 获取我 checked属性值
-2020-09-14 19:33:00,965 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='我']")
-2020-09-14 19:33:01,783 - INFO - [homePage.py - __init__ - 15] - 首页
-2020-09-14 19:33:01,783 - INFO - [homePage.py - click_user_navigation - 24] - 点击 “我” 
-2020-09-14 19:33:01,784 - INFO - [base.py - click_ele - 43] - 执行点击操作
-2020-09-14 19:33:01,784 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='我']")
-2020-09-14 19:33:01,916 - INFO - [goLoginPage.py - __init__ - 13] - 获取去登录页面
-2020-09-14 19:33:01,916 - INFO - [goLoginPage.py - click_go_to_login - 17] - 点击 “已有账号，去登录” 
-2020-09-14 19:33:01,916 - INFO - [base.py - click_ele - 43] - 执行点击操作
-2020-09-14 19:33:01,916 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/textView1')
-2020-09-14 19:33:03,252 - INFO - [test_bnal_login5.py - test_login_s - 61] - 输入账号: 13862867164，输入密码:5201314yxk
-2020-09-14 19:33:03,252 - INFO - [nLoginPage.py - __init__ - 10] - 登录页面
-2020-09-14 19:33:03,252 - INFO - [nLoginPage.py - login_operation - 50] - 登录操作
-2020-09-14 19:33:03,252 - INFO - [nLoginPage.py - send_phone - 23] - 输入手机号: 13862867164
-2020-09-14 19:33:03,252 - INFO - [base.py - send_ele - 55] - 执行输入动作，输入内容为: 13862867164
-2020-09-14 19:33:03,253 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/logon_account_textview')
-2020-09-14 19:33:05,549 - INFO - [nLoginPage.py - send_password - 40] - 输入密码:5201314yxk
-2020-09-14 19:33:05,549 - INFO - [base.py - send_ele - 55] - 执行输入动作，输入内容为:5201314yxk
-2020-09-14 19:33:05,549 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/logon_password_textview')
-2020-09-14 19:33:06,648 - INFO - [nLoginPage.py - click_login_btn - 14] - 点击登录按钮
-2020-09-14 19:33:06,648 - INFO - [base.py - click_ele - 43] - 执行点击操作
-2020-09-14 19:33:06,648 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='登录']")
-2020-09-14 19:33:07,183 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/tv_user_nikename')
-2020-09-14 19:33:08,265 - INFO - [yLoginPage.py - __init__ - 13] - 已登录页面
-2020-09-14 19:33:08,265 - INFO - [yLoginPage.py - click_setting_btn - 17] - 点击设置按钮
-2020-09-14 19:33:08,266 - INFO - [base.py - click_ele - 43] - 执行点击操作
-2020-09-14 19:33:08,266 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/ymtitlebar_left_btn_image')
-2020-09-14 19:33:08,315 - INFO - [settingPage.py - __init__ - 14] - 设置页面
-2020-09-14 19:33:08,316 - INFO - [settingPage.py - log_out_operation - 33] - 登出操作
-2020-09-14 19:33:08,316 - INFO - [settingPage.py - swipe_screen_down - 28] - 垂直向上滑动
-2020-09-14 19:33:08,316 - INFO - [base.py - swipe_screen - 82] - 执行滑动操作1,滑动时间为1500
-2020-09-14 19:33:11,769 - INFO - [settingPage.py - click_log_off - 18] - 点击退出
-2020-09-14 19:33:11,769 - INFO - [base.py - click_ele - 43] - 执行点击操作
-2020-09-14 19:33:11,770 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='退出']")
-2020-09-14 19:33:11,916 - INFO - [settingPage.py - click_quit_msg_confirm - 23] - 点击退出提示确认
-2020-09-14 19:33:11,917 - INFO - [base.py - click_ele - 43] - 执行点击操作
-2020-09-14 19:33:11,917 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='确认']")
-2020-09-14 19:33:13,133 - INFO - [homePage.py - __init__ - 15] - 首页
-2020-09-14 19:33:13,133 - INFO - [homePage.py - get_user_navigation_checked - 29] - 获取我 checked属性值
-2020-09-14 19:33:13,133 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='我']")
-2020-09-14 19:33:13,830 - INFO - [homePage.py - __init__ - 15] - 首页
-2020-09-14 19:33:13,830 - INFO - [homePage.py - click_user_navigation - 24] - 点击 “我” 
-2020-09-14 19:33:13,831 - INFO - [base.py - click_ele - 43] - 执行点击操作
-2020-09-14 19:33:13,831 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='我']")
-2020-09-14 19:33:13,966 - INFO - [goLoginPage.py - __init__ - 13] - 获取去登录页面
-2020-09-14 19:33:13,967 - INFO - [goLoginPage.py - click_go_to_login - 17] - 点击 “已有账号，去登录” 
-2020-09-14 19:33:13,967 - INFO - [base.py - click_ele - 43] - 执行点击操作
-2020-09-14 19:33:13,967 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/textView1')
-2020-09-14 19:33:15,236 - INFO - [test_bnal_login5.py - test_login_s - 61] - 输入账号:13862867164 ，输入密码:5201314yxk
-2020-09-14 19:33:15,236 - INFO - [nLoginPage.py - __init__ - 10] - 登录页面
-2020-09-14 19:33:15,237 - INFO - [nLoginPage.py - login_operation - 50] - 登录操作
-2020-09-14 19:33:15,237 - INFO - [nLoginPage.py - send_phone - 23] - 输入手机号:13862867164 
-2020-09-14 19:33:15,238 - INFO - [base.py - send_ele - 55] - 执行输入动作，输入内容为:13862867164 
-2020-09-14 19:33:15,238 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/logon_account_textview')
-2020-09-14 19:33:17,479 - INFO - [nLoginPage.py - send_password - 40] - 输入密码:5201314yxk
-2020-09-14 19:33:17,480 - INFO - [base.py - send_ele - 55] - 执行输入动作，输入内容为:5201314yxk
-2020-09-14 19:33:17,480 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/logon_password_textview')
-2020-09-14 19:33:18,580 - INFO - [nLoginPage.py - click_login_btn - 14] - 点击登录按钮
-2020-09-14 19:33:18,581 - INFO - [base.py - click_ele - 43] - 执行点击操作
-2020-09-14 19:33:18,581 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='登录']")
-2020-09-14 19:33:19,114 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/tv_user_nikename')
-2020-09-14 19:33:20,182 - INFO - [yLoginPage.py - __init__ - 13] - 已登录页面
-2020-09-14 19:33:20,182 - INFO - [yLoginPage.py - click_setting_btn - 17] - 点击设置按钮
-2020-09-14 19:33:20,182 - INFO - [base.py - click_ele - 43] - 执行点击操作
-2020-09-14 19:33:20,182 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/ymtitlebar_left_btn_image')
-2020-09-14 19:33:20,232 - INFO - [settingPage.py - __init__ - 14] - 设置页面
-2020-09-14 19:33:20,232 - INFO - [settingPage.py - log_out_operation - 33] - 登出操作
-2020-09-14 19:33:20,232 - INFO - [settingPage.py - swipe_screen_down - 28] - 垂直向上滑动
-2020-09-14 19:33:20,233 - INFO - [base.py - swipe_screen - 82] - 执行滑动操作1,滑动时间为1500
-2020-09-14 19:33:23,690 - INFO - [settingPage.py - click_log_off - 18] - 点击退出
-2020-09-14 19:33:23,690 - INFO - [base.py - click_ele - 43] - 执行点击操作
-2020-09-14 19:33:23,691 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='退出']")
-2020-09-14 19:33:23,817 - INFO - [settingPage.py - click_quit_msg_confirm - 23] - 点击退出提示确认
-2020-09-14 19:33:23,817 - INFO - [base.py - click_ele - 43] - 执行点击操作
-2020-09-14 19:33:23,818 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='确认']")
-2020-09-14 19:33:25,047 - INFO - [homePage.py - __init__ - 15] - 首页
-2020-09-14 19:33:25,047 - INFO - [homePage.py - get_user_navigation_checked - 29] - 获取我 checked属性值
-2020-09-14 19:33:25,048 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='我']")
-2020-09-14 19:33:25,748 - INFO - [homePage.py - __init__ - 15] - 首页
-2020-09-14 19:33:25,748 - INFO - [homePage.py - click_user_navigation - 24] - 点击 “我” 
-2020-09-14 19:33:25,748 - INFO - [base.py - click_ele - 43] - 执行点击操作
-2020-09-14 19:33:25,748 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='我']")
-2020-09-14 19:33:25,898 - INFO - [goLoginPage.py - __init__ - 13] - 获取去登录页面
-2020-09-14 19:33:25,899 - INFO - [goLoginPage.py - click_go_to_login - 17] - 点击 “已有账号，去登录” 
-2020-09-14 19:33:25,899 - INFO - [base.py - click_ele - 43] - 执行点击操作
-2020-09-14 19:33:25,899 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/textView1')
-2020-09-14 19:33:27,099 - INFO - [test_bnal_login5.py - test_login_s - 61] - 输入账号:13862867165，输入密码:5201314yxk
-2020-09-14 19:33:27,099 - INFO - [nLoginPage.py - __init__ - 10] - 登录页面
-2020-09-14 19:33:27,100 - INFO - [nLoginPage.py - login_operation - 50] - 登录操作
-2020-09-14 19:33:27,100 - INFO - [nLoginPage.py - send_phone - 23] - 输入手机号:13862867165
-2020-09-14 19:33:27,100 - INFO - [base.py - send_ele - 55] - 执行输入动作，输入内容为:13862867165
-2020-09-14 19:33:27,100 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/logon_account_textview')
-2020-09-14 19:33:29,282 - INFO - [nLoginPage.py - send_password - 40] - 输入密码:5201314yxk
-2020-09-14 19:33:29,283 - INFO - [base.py - send_ele - 55] - 执行输入动作，输入内容为:5201314yxk
-2020-09-14 19:33:29,283 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/logon_password_textview')
-2020-09-14 19:33:30,365 - INFO - [nLoginPage.py - click_login_btn - 14] - 点击登录按钮
-2020-09-14 19:33:30,365 - INFO - [base.py - click_ele - 43] - 执行点击操作
-2020-09-14 19:33:30,366 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='登录']")
-2020-09-14 19:33:30,903 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/tv_user_nikename')
-2020-09-14 19:33:36,313 - INFO - [nLoginPage.py - __init__ - 10] - 登录页面
-2020-09-14 19:33:36,314 - INFO - [nLoginPage.py - click_close_login - 45] - 点击关闭登录
-2020-09-14 19:33:36,314 - INFO - [base.py - click_ele - 43] - 执行点击操作
-2020-09-14 19:33:36,315 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/ymtitlebar_left_btn_image')
-2020-09-14 19:33:36,343 - INFO - [homePage.py - __init__ - 15] - 首页
-2020-09-14 19:33:36,343 - INFO - [homePage.py - click_user_navigation - 24] - 点击 “我” 
-2020-09-14 19:33:36,343 - INFO - [base.py - click_ele - 43] - 执行点击操作
-2020-09-14 19:33:36,344 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='我']")
-2020-09-14 19:33:37,514 - INFO - [goLoginPage.py - __init__ - 13] - 获取去登录页面
-2020-09-14 19:33:37,514 - INFO - [goLoginPage.py - click_go_to_login - 17] - 点击 “已有账号，去登录” 
-2020-09-14 19:33:37,514 - INFO - [base.py - click_ele - 43] - 执行点击操作
-2020-09-14 19:33:37,514 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/textView1')
-2020-09-14 19:33:38,781 - INFO - [test_bnal_login5.py - test_login_s - 61] - 输入账号:13862867164，输入密码:5201314yx
-2020-09-14 19:33:38,781 - INFO - [nLoginPage.py - __init__ - 10] - 登录页面
-2020-09-14 19:33:38,782 - INFO - [nLoginPage.py - login_operation - 50] - 登录操作
-2020-09-14 19:33:38,782 - INFO - [nLoginPage.py - send_phone - 23] - 输入手机号:13862867164
-2020-09-14 19:33:38,782 - INFO - [base.py - send_ele - 55] - 执行输入动作，输入内容为:13862867164
-2020-09-14 19:33:38,782 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/logon_account_textview')
-2020-09-14 19:33:41,047 - INFO - [nLoginPage.py - send_password - 40] - 输入密码:5201314yx
-2020-09-14 19:33:41,047 - INFO - [base.py - send_ele - 55] - 执行输入动作，输入内容为:5201314yx
-2020-09-14 19:33:41,047 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/logon_password_textview')
-2020-09-14 19:33:42,149 - INFO - [nLoginPage.py - click_login_btn - 14] - 点击登录按钮
-2020-09-14 19:33:42,149 - INFO - [base.py - click_ele - 43] - 执行点击操作
-2020-09-14 19:33:42,150 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='登录']")
-2020-09-14 19:33:42,683 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/tv_user_nikename')
-2020-09-14 19:33:47,778 - INFO - [nLoginPage.py - __init__ - 10] - 登录页面
-2020-09-14 19:33:47,778 - INFO - [nLoginPage.py - click_close_login - 45] - 点击关闭登录
-2020-09-14 19:33:47,779 - INFO - [base.py - click_ele - 43] - 执行点击操作
-2020-09-14 19:33:47,779 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/ymtitlebar_left_btn_image')
-2020-09-14 19:37:42,098 - INFO - [homePage.py - __init__ - 15] - 首页
-2020-09-14 19:37:42,098 - INFO - [homePage.py - close_update_btn - 34] - 判断，关闭更新提示
-2020-09-14 19:37:42,099 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@content-desc='关闭对话框']")
-2020-09-14 19:37:42,754 - INFO - [homePage.py - click_close_update - 19] - 点击 “x” 
-2020-09-14 19:37:42,754 - INFO - [base.py - click_ele - 43] - 执行点击操作
-2020-09-14 19:37:42,755 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@content-desc='关闭对话框']")
-2020-09-14 19:37:42,823 - INFO - [homePage.py - __init__ - 15] - 首页
-2020-09-14 19:37:42,823 - INFO - [homePage.py - click_user_navigation - 24] - 点击 “我” 
-2020-09-14 19:37:42,824 - INFO - [base.py - click_ele - 43] - 执行点击操作
-2020-09-14 19:37:42,824 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='我']")
-2020-09-14 19:37:43,465 - INFO - [goLoginPage.py - __init__ - 13] - 获取去登录页面
-2020-09-14 19:37:43,466 - INFO - [goLoginPage.py - click_go_to_login - 17] - 点击 “已有账号，去登录” 
-2020-09-14 19:37:43,466 - INFO - [base.py - click_ele - 43] - 执行点击操作
-2020-09-14 19:37:43,466 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/textView1')
-2020-09-14 19:37:44,834 - INFO - [test_bnal_login5.py - test_login_s - 61] - 输入账号:13862867164，输入密码:5201314yxk
-2020-09-14 19:37:44,834 - INFO - [nLoginPage.py - __init__ - 10] - 登录页面
-2020-09-14 19:37:44,835 - INFO - [nLoginPage.py - login_operation - 50] - 登录操作
-2020-09-14 19:37:44,835 - INFO - [nLoginPage.py - send_phone - 23] - 输入手机号:13862867164
-2020-09-14 19:37:44,835 - INFO - [base.py - send_ele - 55] - 执行输入动作，输入内容为:13862867164
-2020-09-14 19:37:44,835 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/logon_account_textview')
-2020-09-14 19:37:47,114 - INFO - [nLoginPage.py - send_password - 40] - 输入密码:5201314yxk
-2020-09-14 19:37:47,114 - INFO - [base.py - send_ele - 55] - 执行输入动作，输入内容为:5201314yxk
-2020-09-14 19:37:47,115 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/logon_password_textview')
-2020-09-14 19:37:48,214 - INFO - [nLoginPage.py - click_login_btn - 14] - 点击登录按钮
-2020-09-14 19:37:48,215 - INFO - [base.py - click_ele - 43] - 执行点击操作
-2020-09-14 19:37:48,215 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='登录']")
-2020-09-14 19:37:48,749 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/tv_user_nikename')
-2020-09-14 19:37:50,029 - INFO - [yLoginPage.py - __init__ - 13] - 已登录页面
-2020-09-14 19:37:50,030 - INFO - [yLoginPage.py - click_setting_btn - 17] - 点击设置按钮
-2020-09-14 19:37:50,031 - INFO - [base.py - click_ele - 43] - 执行点击操作
-2020-09-14 19:37:50,031 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/ymtitlebar_left_btn_image')
-2020-09-14 19:37:50,097 - INFO - [settingPage.py - __init__ - 14] - 设置页面
-2020-09-14 19:37:50,098 - INFO - [settingPage.py - log_out_operation - 33] - 登出操作
-2020-09-14 19:37:50,099 - INFO - [settingPage.py - swipe_screen_down - 28] - 垂直向上滑动
-2020-09-14 19:37:50,099 - INFO - [base.py - swipe_screen - 82] - 执行滑动操作1,滑动时间为1500
-2020-09-14 19:37:53,554 - INFO - [settingPage.py - click_log_off - 18] - 点击退出
-2020-09-14 19:37:53,555 - INFO - [base.py - click_ele - 43] - 执行点击操作
-2020-09-14 19:37:53,555 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='退出']")
-2020-09-14 19:37:53,733 - INFO - [settingPage.py - click_quit_msg_confirm - 23] - 点击退出提示确认
-2020-09-14 19:37:53,734 - INFO - [base.py - click_ele - 43] - 执行点击操作
-2020-09-14 19:37:53,734 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='确认']")
-2020-09-14 19:37:54,947 - INFO - [homePage.py - __init__ - 15] - 首页
-2020-09-14 19:37:54,948 - INFO - [homePage.py - get_user_navigation_checked - 29] - 获取我 checked属性值
-2020-09-14 19:37:54,948 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='我']")
-2020-09-14 19:37:55,765 - INFO - [homePage.py - __init__ - 15] - 首页
-2020-09-14 19:37:55,766 - INFO - [homePage.py - click_user_navigation - 24] - 点击 “我” 
-2020-09-14 19:37:55,766 - INFO - [base.py - click_ele - 43] - 执行点击操作
-2020-09-14 19:37:55,766 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='我']")
-2020-09-14 19:37:55,965 - INFO - [goLoginPage.py - __init__ - 13] - 获取去登录页面
-2020-09-14 19:37:55,965 - INFO - [goLoginPage.py - click_go_to_login - 17] - 点击 “已有账号，去登录” 
-2020-09-14 19:37:55,965 - INFO - [base.py - click_ele - 43] - 执行点击操作
-2020-09-14 19:37:55,965 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/textView1')
-2020-09-14 19:37:57,216 - INFO - [test_bnal_login5.py - test_login_s - 61] - 输入账号: 13862867164，输入密码:5201314yxk
-2020-09-14 19:37:57,216 - INFO - [nLoginPage.py - __init__ - 10] - 登录页面
-2020-09-14 19:37:57,217 - INFO - [nLoginPage.py - login_operation - 50] - 登录操作
-2020-09-14 19:37:57,217 - INFO - [nLoginPage.py - send_phone - 23] - 输入手机号: 13862867164
-2020-09-14 19:37:57,217 - INFO - [base.py - send_ele - 55] - 执行输入动作，输入内容为: 13862867164
-2020-09-14 19:37:57,217 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/logon_account_textview')
-2020-09-14 19:37:59,449 - INFO - [nLoginPage.py - send_password - 40] - 输入密码:5201314yxk
-2020-09-14 19:37:59,449 - INFO - [base.py - send_ele - 55] - 执行输入动作，输入内容为:5201314yxk
-2020-09-14 19:37:59,449 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/logon_password_textview')
-2020-09-14 19:38:00,548 - INFO - [nLoginPage.py - click_login_btn - 14] - 点击登录按钮
-2020-09-14 19:38:00,548 - INFO - [base.py - click_ele - 43] - 执行点击操作
-2020-09-14 19:38:00,548 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='登录']")
-2020-09-14 19:38:01,083 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/tv_user_nikename')
-2020-09-14 19:38:02,229 - INFO - [yLoginPage.py - __init__ - 13] - 已登录页面
-2020-09-14 19:38:02,229 - INFO - [yLoginPage.py - click_setting_btn - 17] - 点击设置按钮
-2020-09-14 19:38:02,229 - INFO - [base.py - click_ele - 43] - 执行点击操作
-2020-09-14 19:38:02,230 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/ymtitlebar_left_btn_image')
-2020-09-14 19:38:02,299 - INFO - [settingPage.py - __init__ - 14] - 设置页面
-2020-09-14 19:38:02,299 - INFO - [settingPage.py - log_out_operation - 33] - 登出操作
-2020-09-14 19:38:02,299 - INFO - [settingPage.py - swipe_screen_down - 28] - 垂直向上滑动
-2020-09-14 19:38:02,299 - INFO - [base.py - swipe_screen - 82] - 执行滑动操作1,滑动时间为1500
-2020-09-14 19:38:05,755 - INFO - [settingPage.py - click_log_off - 18] - 点击退出
-2020-09-14 19:38:05,755 - INFO - [base.py - click_ele - 43] - 执行点击操作
-2020-09-14 19:38:05,755 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='退出']")
-2020-09-14 19:38:05,898 - INFO - [settingPage.py - click_quit_msg_confirm - 23] - 点击退出提示确认
-2020-09-14 19:38:05,899 - INFO - [base.py - click_ele - 43] - 执行点击操作
-2020-09-14 19:38:05,899 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='确认']")
-2020-09-14 19:38:07,116 - INFO - [homePage.py - __init__ - 15] - 首页
-2020-09-14 19:38:07,117 - INFO - [homePage.py - get_user_navigation_checked - 29] - 获取我 checked属性值
-2020-09-14 19:38:07,117 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='我']")
-2020-09-14 19:38:07,815 - INFO - [homePage.py - __init__ - 15] - 首页
-2020-09-14 19:38:07,816 - INFO - [homePage.py - click_user_navigation - 24] - 点击 “我” 
-2020-09-14 19:38:07,816 - INFO - [base.py - click_ele - 43] - 执行点击操作
-2020-09-14 19:38:07,818 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='我']")
-2020-09-14 19:38:08,016 - INFO - [goLoginPage.py - __init__ - 13] - 获取去登录页面
-2020-09-14 19:38:08,016 - INFO - [goLoginPage.py - click_go_to_login - 17] - 点击 “已有账号，去登录” 
-2020-09-14 19:38:08,016 - INFO - [base.py - click_ele - 43] - 执行点击操作
-2020-09-14 19:38:08,017 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/textView1')
-2020-09-14 19:38:09,183 - INFO - [test_bnal_login5.py - test_login_s - 61] - 输入账号:13862867164 ，输入密码:5201314yxk
-2020-09-14 19:38:09,184 - INFO - [nLoginPage.py - __init__ - 10] - 登录页面
-2020-09-14 19:38:09,184 - INFO - [nLoginPage.py - login_operation - 50] - 登录操作
-2020-09-14 19:38:09,184 - INFO - [nLoginPage.py - send_phone - 23] - 输入手机号:13862867164 
-2020-09-14 19:38:09,185 - INFO - [base.py - send_ele - 55] - 执行输入动作，输入内容为:13862867164 
-2020-09-14 19:38:09,185 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/logon_account_textview')
-2020-09-14 19:38:11,398 - INFO - [nLoginPage.py - send_password - 40] - 输入密码:5201314yxk
-2020-09-14 19:38:11,398 - INFO - [base.py - send_ele - 55] - 执行输入动作，输入内容为:5201314yxk
-2020-09-14 19:38:11,398 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/logon_password_textview')
-2020-09-14 19:38:12,498 - INFO - [nLoginPage.py - click_login_btn - 14] - 点击登录按钮
-2020-09-14 19:38:12,499 - INFO - [base.py - click_ele - 43] - 执行点击操作
-2020-09-14 19:38:12,499 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='登录']")
-2020-09-14 19:38:13,035 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/tv_user_nikename')
-2020-09-14 19:38:14,249 - INFO - [yLoginPage.py - __init__ - 13] - 已登录页面
-2020-09-14 19:38:14,250 - INFO - [yLoginPage.py - click_setting_btn - 17] - 点击设置按钮
-2020-09-14 19:38:14,250 - INFO - [base.py - click_ele - 43] - 执行点击操作
-2020-09-14 19:38:14,250 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/ymtitlebar_left_btn_image')
-2020-09-14 19:38:14,316 - INFO - [settingPage.py - __init__ - 14] - 设置页面
-2020-09-14 19:38:14,316 - INFO - [settingPage.py - log_out_operation - 33] - 登出操作
-2020-09-14 19:38:14,316 - INFO - [settingPage.py - swipe_screen_down - 28] - 垂直向上滑动
-2020-09-14 19:38:14,316 - INFO - [base.py - swipe_screen - 82] - 执行滑动操作1,滑动时间为1500
-2020-09-14 19:38:17,769 - INFO - [settingPage.py - click_log_off - 18] - 点击退出
-2020-09-14 19:38:17,769 - INFO - [base.py - click_ele - 43] - 执行点击操作
-2020-09-14 19:38:17,769 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='退出']")
-2020-09-14 19:38:17,866 - INFO - [settingPage.py - click_quit_msg_confirm - 23] - 点击退出提示确认
-2020-09-14 19:38:17,866 - INFO - [base.py - click_ele - 43] - 执行点击操作
-2020-09-14 19:38:17,866 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='确认']")
-2020-09-14 19:38:19,048 - INFO - [homePage.py - __init__ - 15] - 首页
-2020-09-14 19:38:19,049 - INFO - [homePage.py - get_user_navigation_checked - 29] - 获取我 checked属性值
-2020-09-14 19:38:19,049 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='我']")
-2020-09-14 19:38:19,747 - INFO - [homePage.py - __init__ - 15] - 首页
-2020-09-14 19:38:19,747 - INFO - [homePage.py - click_user_navigation - 24] - 点击 “我” 
-2020-09-14 19:38:19,748 - INFO - [base.py - click_ele - 43] - 执行点击操作
-2020-09-14 19:38:19,748 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='我']")
-2020-09-14 19:38:19,947 - INFO - [goLoginPage.py - __init__ - 13] - 获取去登录页面
-2020-09-14 19:38:19,948 - INFO - [goLoginPage.py - click_go_to_login - 17] - 点击 “已有账号，去登录” 
-2020-09-14 19:38:19,948 - INFO - [base.py - click_ele - 43] - 执行点击操作
-2020-09-14 19:38:19,948 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/textView1')
-2020-09-14 19:38:21,114 - INFO - [test_bnal_login5.py - test_login_s - 61] - 输入账号:13862867165，输入密码:5201314yxk
-2020-09-14 19:38:21,115 - INFO - [nLoginPage.py - __init__ - 10] - 登录页面
-2020-09-14 19:38:21,115 - INFO - [nLoginPage.py - login_operation - 50] - 登录操作
-2020-09-14 19:38:21,115 - INFO - [nLoginPage.py - send_phone - 23] - 输入手机号:13862867165
-2020-09-14 19:38:21,115 - INFO - [base.py - send_ele - 55] - 执行输入动作，输入内容为:13862867165
-2020-09-14 19:38:21,115 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/logon_account_textview')
-2020-09-14 19:38:23,318 - INFO - [nLoginPage.py - send_password - 40] - 输入密码:5201314yxk
-2020-09-14 19:38:23,318 - INFO - [base.py - send_ele - 55] - 执行输入动作，输入内容为:5201314yxk
-2020-09-14 19:38:23,318 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/logon_password_textview')
-2020-09-14 19:38:24,415 - INFO - [nLoginPage.py - click_login_btn - 14] - 点击登录按钮
-2020-09-14 19:38:24,415 - INFO - [base.py - click_ele - 43] - 执行点击操作
-2020-09-14 19:38:24,415 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='登录']")
-2020-09-14 19:38:24,948 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/tv_user_nikename')
-2020-09-14 19:38:30,360 - INFO - [nLoginPage.py - __init__ - 10] - 登录页面
-2020-09-14 19:38:30,361 - INFO - [nLoginPage.py - click_close_login - 45] - 点击关闭登录
-2020-09-14 19:38:30,361 - INFO - [base.py - click_ele - 43] - 执行点击操作
-2020-09-14 19:38:30,361 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/ymtitlebar_left_btn_image')
-2020-09-14 19:38:30,384 - INFO - [homePage.py - __init__ - 15] - 首页
-2020-09-14 19:38:30,384 - INFO - [homePage.py - click_user_navigation - 24] - 点击 “我” 
-2020-09-14 19:38:30,384 - INFO - [base.py - click_ele - 43] - 执行点击操作
-2020-09-14 19:38:30,385 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='我']")
-2020-09-14 19:38:31,646 - INFO - [goLoginPage.py - __init__ - 13] - 获取去登录页面
-2020-09-14 19:38:31,647 - INFO - [goLoginPage.py - click_go_to_login - 17] - 点击 “已有账号，去登录” 
-2020-09-14 19:38:31,647 - INFO - [base.py - click_ele - 43] - 执行点击操作
-2020-09-14 19:38:31,647 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/textView1')
-2020-09-14 19:38:32,833 - INFO - [test_bnal_login5.py - test_login_s - 61] - 输入账号:13862867164，输入密码:5201314yx
-2020-09-14 19:38:32,833 - INFO - [nLoginPage.py - __init__ - 10] - 登录页面
-2020-09-14 19:38:32,833 - INFO - [nLoginPage.py - login_operation - 50] - 登录操作
-2020-09-14 19:38:32,834 - INFO - [nLoginPage.py - send_phone - 23] - 输入手机号:13862867164
-2020-09-14 19:38:32,834 - INFO - [base.py - send_ele - 55] - 执行输入动作，输入内容为:13862867164
-2020-09-14 19:38:32,834 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/logon_account_textview')
-2020-09-14 19:38:35,048 - INFO - [nLoginPage.py - send_password - 40] - 输入密码:5201314yx
-2020-09-14 19:38:35,048 - INFO - [base.py - send_ele - 55] - 执行输入动作，输入内容为:5201314yx
-2020-09-14 19:38:35,048 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/logon_password_textview')
-2020-09-14 19:38:36,149 - INFO - [nLoginPage.py - click_login_btn - 14] - 点击登录按钮
-2020-09-14 19:38:36,149 - INFO - [base.py - click_ele - 43] - 执行点击操作
-2020-09-14 19:38:36,150 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='登录']")
-2020-09-14 19:38:36,682 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/tv_user_nikename')
-2020-09-14 19:38:42,194 - INFO - [nLoginPage.py - __init__ - 10] - 登录页面
-2020-09-14 19:38:42,195 - INFO - [nLoginPage.py - click_close_login - 45] - 点击关闭登录
-2020-09-14 19:38:42,195 - INFO - [base.py - click_ele - 43] - 执行点击操作
-2020-09-14 19:38:42,195 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/ymtitlebar_left_btn_image')
+2020-09-15 09:05:22,974 - INFO - [remote_connection.py - __init__ - 117] - Could not connect to port 4723 on host localhost
+2020-09-15 09:05:22,974 - INFO - [remote_connection.py - __init__ - 136] - Could not get IP address for host: localhost
+2020-09-15 09:05:27,041 - WARNING - [connectionpool.py - urlopen - 752] - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002E957344438>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /wd/hub/session
+2020-09-15 09:05:31,120 - WARNING - [connectionpool.py - urlopen - 752] - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002E9573444E0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /wd/hub/session
+2020-09-15 09:05:35,215 - WARNING - [connectionpool.py - urlopen - 752] - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002E957344668>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /wd/hub/session
+2020-09-15 09:07:08,237 - INFO - [homePage.py - __init__ - 15] - 首页
+2020-09-15 09:07:08,237 - INFO - [homePage.py - close_update_btn - 34] - 判断，关闭更新提示
+2020-09-15 09:07:08,238 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@content-desc='关闭对话框']")
+2020-09-15 09:07:08,959 - INFO - [homePage.py - click_close_update - 19] - 点击 “x” 
+2020-09-15 09:07:08,959 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 09:07:08,960 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@content-desc='关闭对话框']")
+2020-09-15 09:07:09,096 - INFO - [homePage.py - __init__ - 15] - 首页
+2020-09-15 09:07:09,097 - INFO - [homePage.py - click_user_navigation - 24] - 点击 “我” 
+2020-09-15 09:07:09,097 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 09:07:09,097 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='我']")
+2020-09-15 09:07:09,719 - INFO - [goLoginPage.py - __init__ - 13] - 获取去登录页面
+2020-09-15 09:07:09,719 - INFO - [goLoginPage.py - click_go_to_login - 17] - 点击 “已有账号，去登录” 
+2020-09-15 09:07:09,719 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 09:07:09,720 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/textView1')
+2020-09-15 09:07:11,100 - INFO - [test_bnal_login5.py - test_login_s - 61] - 输入账号:13862867164，输入密码:5201314yxk
+2020-09-15 09:07:11,100 - INFO - [nLoginPage.py - __init__ - 10] - 登录页面
+2020-09-15 09:07:11,101 - INFO - [nLoginPage.py - login_operation - 50] - 登录操作
+2020-09-15 09:07:11,101 - INFO - [nLoginPage.py - send_phone - 23] - 输入手机号:13862867164
+2020-09-15 09:07:11,101 - INFO - [base.py - send_ele - 55] - 执行输入动作，输入内容为:13862867164
+2020-09-15 09:07:11,102 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/logon_account_textview')
+2020-09-15 09:07:13,399 - INFO - [nLoginPage.py - send_password - 40] - 输入密码:5201314yxk
+2020-09-15 09:07:13,399 - INFO - [base.py - send_ele - 55] - 执行输入动作，输入内容为:5201314yxk
+2020-09-15 09:07:13,399 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/logon_password_textview')
+2020-09-15 09:07:14,498 - INFO - [nLoginPage.py - click_login_btn - 14] - 点击登录按钮
+2020-09-15 09:07:14,498 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 09:07:14,499 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='登录']")
+2020-09-15 09:07:15,045 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/tv_user_nikename')
+2020-09-15 09:07:16,451 - INFO - [yLoginPage.py - __init__ - 13] - 已登录页面
+2020-09-15 09:07:16,451 - INFO - [yLoginPage.py - click_setting_btn - 17] - 点击设置按钮
+2020-09-15 09:07:16,451 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 09:07:16,451 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/ymtitlebar_left_btn_image')
+2020-09-15 09:07:16,508 - INFO - [settingPage.py - __init__ - 14] - 设置页面
+2020-09-15 09:07:16,508 - INFO - [settingPage.py - log_out_operation - 33] - 登出操作
+2020-09-15 09:07:16,509 - INFO - [settingPage.py - swipe_screen_down - 28] - 垂直向上滑动
+2020-09-15 09:07:16,509 - INFO - [base.py - swipe_screen - 82] - 执行滑动操作1,滑动时间为1500
+2020-09-15 09:07:19,989 - INFO - [settingPage.py - click_log_off - 18] - 点击退出
+2020-09-15 09:07:19,989 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 09:07:19,989 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='退出']")
+2020-09-15 09:07:20,117 - INFO - [settingPage.py - click_quit_msg_confirm - 23] - 点击退出提示确认
+2020-09-15 09:07:20,117 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 09:07:20,118 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='确认']")
+2020-09-15 09:07:21,318 - INFO - [homePage.py - __init__ - 15] - 首页
+2020-09-15 09:07:21,318 - INFO - [homePage.py - get_user_navigation_checked - 29] - 获取我 checked属性值
+2020-09-15 09:07:21,318 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='我']")
+2020-09-15 09:07:22,135 - INFO - [homePage.py - __init__ - 15] - 首页
+2020-09-15 09:07:22,135 - INFO - [homePage.py - click_user_navigation - 24] - 点击 “我” 
+2020-09-15 09:07:22,135 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 09:07:22,135 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='我']")
+2020-09-15 09:07:22,303 - INFO - [goLoginPage.py - __init__ - 13] - 获取去登录页面
+2020-09-15 09:07:22,304 - INFO - [goLoginPage.py - click_go_to_login - 17] - 点击 “已有账号，去登录” 
+2020-09-15 09:07:22,304 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 09:07:22,304 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/textView1')
+2020-09-15 09:07:23,535 - INFO - [test_bnal_login5.py - test_login_s - 61] - 输入账号: 13862867164，输入密码:5201314yxk
+2020-09-15 09:07:23,535 - INFO - [nLoginPage.py - __init__ - 10] - 登录页面
+2020-09-15 09:07:23,536 - INFO - [nLoginPage.py - login_operation - 50] - 登录操作
+2020-09-15 09:07:23,536 - INFO - [nLoginPage.py - send_phone - 23] - 输入手机号: 13862867164
+2020-09-15 09:07:23,536 - INFO - [base.py - send_ele - 55] - 执行输入动作，输入内容为: 13862867164
+2020-09-15 09:07:23,537 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/logon_account_textview')
+2020-09-15 09:07:25,784 - INFO - [nLoginPage.py - send_password - 40] - 输入密码:5201314yxk
+2020-09-15 09:07:25,784 - INFO - [base.py - send_ele - 55] - 执行输入动作，输入内容为:5201314yxk
+2020-09-15 09:07:25,784 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/logon_password_textview')
+2020-09-15 09:07:26,883 - INFO - [nLoginPage.py - click_login_btn - 14] - 点击登录按钮
+2020-09-15 09:07:26,883 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 09:07:26,883 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='登录']")
+2020-09-15 09:07:27,416 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/tv_user_nikename')
+2020-09-15 09:07:28,517 - INFO - [yLoginPage.py - __init__ - 13] - 已登录页面
+2020-09-15 09:07:28,518 - INFO - [yLoginPage.py - click_setting_btn - 17] - 点击设置按钮
+2020-09-15 09:07:28,518 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 09:07:28,518 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/ymtitlebar_left_btn_image')
+2020-09-15 09:07:28,567 - INFO - [settingPage.py - __init__ - 14] - 设置页面
+2020-09-15 09:07:28,568 - INFO - [settingPage.py - log_out_operation - 33] - 登出操作
+2020-09-15 09:07:28,568 - INFO - [settingPage.py - swipe_screen_down - 28] - 垂直向上滑动
+2020-09-15 09:07:28,568 - INFO - [base.py - swipe_screen - 82] - 执行滑动操作1,滑动时间为1500
+2020-09-15 09:07:32,022 - INFO - [settingPage.py - click_log_off - 18] - 点击退出
+2020-09-15 09:07:32,022 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 09:07:32,023 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='退出']")
+2020-09-15 09:07:32,166 - INFO - [settingPage.py - click_quit_msg_confirm - 23] - 点击退出提示确认
+2020-09-15 09:07:32,166 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 09:07:32,167 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='确认']")
+2020-09-15 09:07:33,350 - INFO - [homePage.py - __init__ - 15] - 首页
+2020-09-15 09:07:33,350 - INFO - [homePage.py - get_user_navigation_checked - 29] - 获取我 checked属性值
+2020-09-15 09:07:33,351 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='我']")
+2020-09-15 09:07:34,063 - INFO - [homePage.py - __init__ - 15] - 首页
+2020-09-15 09:07:34,064 - INFO - [homePage.py - click_user_navigation - 24] - 点击 “我” 
+2020-09-15 09:07:34,064 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 09:07:34,064 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='我']")
+2020-09-15 09:07:34,216 - INFO - [goLoginPage.py - __init__ - 13] - 获取去登录页面
+2020-09-15 09:07:34,216 - INFO - [goLoginPage.py - click_go_to_login - 17] - 点击 “已有账号，去登录” 
+2020-09-15 09:07:34,216 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 09:07:34,216 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/textView1')
+2020-09-15 09:07:35,481 - INFO - [test_bnal_login5.py - test_login_s - 61] - 输入账号:13862867164 ，输入密码:5201314yxk
+2020-09-15 09:07:35,481 - INFO - [nLoginPage.py - __init__ - 10] - 登录页面
+2020-09-15 09:07:35,482 - INFO - [nLoginPage.py - login_operation - 50] - 登录操作
+2020-09-15 09:07:35,482 - INFO - [nLoginPage.py - send_phone - 23] - 输入手机号:13862867164 
+2020-09-15 09:07:35,482 - INFO - [base.py - send_ele - 55] - 执行输入动作，输入内容为:13862867164 
+2020-09-15 09:07:35,482 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/logon_account_textview')
+2020-09-15 09:07:37,715 - INFO - [nLoginPage.py - send_password - 40] - 输入密码:5201314yxk
+2020-09-15 09:07:37,715 - INFO - [base.py - send_ele - 55] - 执行输入动作，输入内容为:5201314yxk
+2020-09-15 09:07:37,715 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/logon_password_textview')
+2020-09-15 09:07:38,813 - INFO - [nLoginPage.py - click_login_btn - 14] - 点击登录按钮
+2020-09-15 09:07:38,813 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 09:07:38,813 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='登录']")
+2020-09-15 09:07:39,349 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/tv_user_nikename')
+2020-09-15 09:07:40,422 - INFO - [yLoginPage.py - __init__ - 13] - 已登录页面
+2020-09-15 09:07:40,422 - INFO - [yLoginPage.py - click_setting_btn - 17] - 点击设置按钮
+2020-09-15 09:07:40,423 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 09:07:40,423 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/ymtitlebar_left_btn_image')
+2020-09-15 09:07:40,482 - INFO - [settingPage.py - __init__ - 14] - 设置页面
+2020-09-15 09:07:40,482 - INFO - [settingPage.py - log_out_operation - 33] - 登出操作
+2020-09-15 09:07:40,482 - INFO - [settingPage.py - swipe_screen_down - 28] - 垂直向上滑动
+2020-09-15 09:07:40,482 - INFO - [base.py - swipe_screen - 82] - 执行滑动操作1,滑动时间为1500
+2020-09-15 09:07:43,938 - INFO - [settingPage.py - click_log_off - 18] - 点击退出
+2020-09-15 09:07:43,938 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 09:07:43,938 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='退出']")
+2020-09-15 09:07:44,067 - INFO - [settingPage.py - click_quit_msg_confirm - 23] - 点击退出提示确认
+2020-09-15 09:07:44,067 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 09:07:44,067 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='确认']")
+2020-09-15 09:07:45,283 - INFO - [homePage.py - __init__ - 15] - 首页
+2020-09-15 09:07:45,283 - INFO - [homePage.py - get_user_navigation_checked - 29] - 获取我 checked属性值
+2020-09-15 09:07:45,283 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='我']")
+2020-09-15 09:07:46,002 - INFO - [homePage.py - __init__ - 15] - 首页
+2020-09-15 09:07:46,002 - INFO - [homePage.py - click_user_navigation - 24] - 点击 “我” 
+2020-09-15 09:07:46,002 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 09:07:46,002 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='我']")
+2020-09-15 09:07:46,149 - INFO - [goLoginPage.py - __init__ - 13] - 获取去登录页面
+2020-09-15 09:07:46,149 - INFO - [goLoginPage.py - click_go_to_login - 17] - 点击 “已有账号，去登录” 
+2020-09-15 09:07:46,149 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 09:07:46,150 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/textView1')
+2020-09-15 09:07:47,367 - INFO - [test_bnal_login5.py - test_login_s - 61] - 输入账号:13862867165，输入密码:5201314yxk
+2020-09-15 09:07:47,368 - INFO - [nLoginPage.py - __init__ - 10] - 登录页面
+2020-09-15 09:07:47,368 - INFO - [nLoginPage.py - login_operation - 50] - 登录操作
+2020-09-15 09:07:47,368 - INFO - [nLoginPage.py - send_phone - 23] - 输入手机号:13862867165
+2020-09-15 09:07:47,368 - INFO - [base.py - send_ele - 55] - 执行输入动作，输入内容为:13862867165
+2020-09-15 09:07:47,368 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/logon_account_textview')
+2020-09-15 09:07:49,599 - INFO - [nLoginPage.py - send_password - 40] - 输入密码:5201314yxk
+2020-09-15 09:07:49,599 - INFO - [base.py - send_ele - 55] - 执行输入动作，输入内容为:5201314yxk
+2020-09-15 09:07:49,600 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/logon_password_textview')
+2020-09-15 09:07:50,684 - INFO - [nLoginPage.py - click_login_btn - 14] - 点击登录按钮
+2020-09-15 09:07:50,684 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 09:07:50,684 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='登录']")
+2020-09-15 09:07:51,216 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/tv_user_nikename')
+2020-09-15 09:07:56,999 - INFO - [nLoginPage.py - __init__ - 10] - 登录页面
+2020-09-15 09:07:57,000 - INFO - [nLoginPage.py - click_close_login - 45] - 点击关闭登录
+2020-09-15 09:07:57,000 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 09:07:57,000 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/ymtitlebar_left_btn_image')
+2020-09-15 09:07:57,027 - INFO - [homePage.py - __init__ - 15] - 首页
+2020-09-15 09:07:57,028 - INFO - [homePage.py - click_user_navigation - 24] - 点击 “我” 
+2020-09-15 09:07:57,028 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 09:07:57,028 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='我']")
+2020-09-15 09:07:58,048 - INFO - [goLoginPage.py - __init__ - 13] - 获取去登录页面
+2020-09-15 09:07:58,048 - INFO - [goLoginPage.py - click_go_to_login - 17] - 点击 “已有账号，去登录” 
+2020-09-15 09:07:58,049 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 09:07:58,049 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/textView1')
+2020-09-15 09:07:59,355 - INFO - [test_bnal_login5.py - test_login_s - 61] - 输入账号:13862867164，输入密码:5201314yx
+2020-09-15 09:07:59,355 - INFO - [nLoginPage.py - __init__ - 10] - 登录页面
+2020-09-15 09:07:59,355 - INFO - [nLoginPage.py - login_operation - 50] - 登录操作
+2020-09-15 09:07:59,355 - INFO - [nLoginPage.py - send_phone - 23] - 输入手机号:13862867164
+2020-09-15 09:07:59,355 - INFO - [base.py - send_ele - 55] - 执行输入动作，输入内容为:13862867164
+2020-09-15 09:07:59,356 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/logon_account_textview')
+2020-09-15 09:08:01,666 - INFO - [nLoginPage.py - send_password - 40] - 输入密码:5201314yx
+2020-09-15 09:08:01,666 - INFO - [base.py - send_ele - 55] - 执行输入动作，输入内容为:5201314yx
+2020-09-15 09:08:01,666 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/logon_password_textview')
+2020-09-15 09:08:02,767 - INFO - [nLoginPage.py - click_login_btn - 14] - 点击登录按钮
+2020-09-15 09:08:02,767 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 09:08:02,767 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='登录']")
+2020-09-15 09:08:03,299 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/tv_user_nikename')
+2020-09-15 09:08:08,413 - INFO - [nLoginPage.py - __init__ - 10] - 登录页面
+2020-09-15 09:08:08,413 - INFO - [nLoginPage.py - click_close_login - 45] - 点击关闭登录
+2020-09-15 09:08:08,414 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 09:08:08,414 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/ymtitlebar_left_btn_image')
+2020-09-15 10:05:35,830 - INFO - [homePage.py - __init__ - 17] - 首页
+2020-09-15 10:05:35,831 - INFO - [homePage.py - close_update_btn - 39] - 判断，关闭更新提示
+2020-09-15 10:05:35,831 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@content-desc='关闭对话框']")
+2020-09-15 10:05:36,409 - INFO - [homePage.py - click_close_update - 22] - 点击 “x” 
+2020-09-15 10:05:36,410 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:05:36,410 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@content-desc='关闭对话框']")
+2020-09-15 10:05:36,489 - INFO - [homePage.py - __init__ - 17] - 首页
+2020-09-15 10:05:36,490 - INFO - [homePage.py - click_user_navigation - 28] - 点击 “我” 
+2020-09-15 10:05:36,490 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:05:36,491 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='我']")
+2020-09-15 10:05:37,049 - INFO - [goLoginPage.py - __init__ - 13] - 获取去登录页面
+2020-09-15 10:05:37,049 - INFO - [goLoginPage.py - click_go_to_login - 18] - 点击 “已有账号，去登录” 
+2020-09-15 10:05:37,049 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:05:37,050 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/textView1')
+2020-09-15 10:05:38,333 - INFO - [test_bnal_login5.py - test_login_s - 64] - 输入账号:13862867164，输入密码:5201314yxk
+2020-09-15 10:05:38,334 - INFO - [nLoginPage.py - __init__ - 12] - 登录页面
+2020-09-15 10:05:38,334 - INFO - [nLoginPage.py - login_operation - 56] - 登录操作
+2020-09-15 10:05:38,334 - INFO - [nLoginPage.py - send_phone - 27] - 输入手机号:13862867164
+2020-09-15 10:05:38,334 - INFO - [base.py - send_ele - 55] - 执行输入动作，输入内容为:13862867164
+2020-09-15 10:05:38,335 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/logon_account_textview')
+2020-09-15 10:05:40,516 - INFO - [nLoginPage.py - send_password - 45] - 输入密码:5201314yxk
+2020-09-15 10:05:40,517 - INFO - [base.py - send_ele - 55] - 执行输入动作，输入内容为:5201314yxk
+2020-09-15 10:05:40,517 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/logon_password_textview')
+2020-09-15 10:05:41,615 - INFO - [nLoginPage.py - click_login_btn - 17] - 点击登录按钮
+2020-09-15 10:05:41,615 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:05:41,615 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='登录']")
+2020-09-15 10:05:42,148 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/tv_user_nikename')
+2020-09-15 10:05:43,364 - INFO - [yLoginPage.py - __init__ - 15] - 已登录页面
+2020-09-15 10:05:43,364 - INFO - [yLoginPage.py - click_setting_btn - 20] - 点击设置按钮
+2020-09-15 10:05:43,364 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:05:43,365 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/ymtitlebar_left_btn_image')
+2020-09-15 10:05:43,435 - INFO - [settingPage.py - __init__ - 16] - 设置页面
+2020-09-15 10:05:43,435 - INFO - [settingPage.py - log_out_operation - 38] - 登出操作
+2020-09-15 10:05:43,436 - INFO - [settingPage.py - swipe_screen_down - 33] - 垂直向上滑动
+2020-09-15 10:05:43,436 - INFO - [base.py - swipe_screen - 82] - 执行滑动操作1,滑动时间为1500
+2020-09-15 10:05:46,890 - INFO - [settingPage.py - click_log_off - 21] - 点击退出
+2020-09-15 10:05:46,891 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:05:46,891 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='退出']")
+2020-09-15 10:05:47,069 - INFO - [settingPage.py - click_quit_msg_confirm - 27] - 点击退出提示确认
+2020-09-15 10:05:47,069 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:05:47,070 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='确认']")
+2020-09-15 10:05:48,281 - INFO - [homePage.py - __init__ - 17] - 首页
+2020-09-15 10:05:48,281 - INFO - [homePage.py - get_user_navigation_checked - 34] - 获取我 checked属性值
+2020-09-15 10:05:48,281 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='我']")
+2020-09-15 10:05:49,117 - INFO - [homePage.py - __init__ - 17] - 首页
+2020-09-15 10:05:49,117 - INFO - [homePage.py - click_user_navigation - 28] - 点击 “我” 
+2020-09-15 10:05:49,118 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:05:49,118 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='我']")
+2020-09-15 10:05:49,265 - INFO - [goLoginPage.py - __init__ - 13] - 获取去登录页面
+2020-09-15 10:05:49,265 - INFO - [goLoginPage.py - click_go_to_login - 18] - 点击 “已有账号，去登录” 
+2020-09-15 10:05:49,267 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:05:49,267 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/textView1')
+2020-09-15 10:05:50,482 - INFO - [test_bnal_login5.py - test_login_s - 64] - 输入账号: 13862867164，输入密码:5201314yxk
+2020-09-15 10:05:50,483 - INFO - [nLoginPage.py - __init__ - 12] - 登录页面
+2020-09-15 10:05:50,483 - INFO - [nLoginPage.py - login_operation - 56] - 登录操作
+2020-09-15 10:05:50,484 - INFO - [nLoginPage.py - send_phone - 27] - 输入手机号: 13862867164
+2020-09-15 10:05:50,484 - INFO - [base.py - send_ele - 55] - 执行输入动作，输入内容为: 13862867164
+2020-09-15 10:05:50,484 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/logon_account_textview')
+2020-09-15 10:05:52,713 - INFO - [nLoginPage.py - send_password - 45] - 输入密码:5201314yxk
+2020-09-15 10:05:52,713 - INFO - [base.py - send_ele - 55] - 执行输入动作，输入内容为:5201314yxk
+2020-09-15 10:05:52,713 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/logon_password_textview')
+2020-09-15 10:05:53,817 - INFO - [nLoginPage.py - click_login_btn - 17] - 点击登录按钮
+2020-09-15 10:05:53,817 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:05:53,817 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='登录']")
+2020-09-15 10:05:54,351 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/tv_user_nikename')
+2020-09-15 10:05:55,567 - INFO - [yLoginPage.py - __init__ - 15] - 已登录页面
+2020-09-15 10:05:55,567 - INFO - [yLoginPage.py - click_setting_btn - 20] - 点击设置按钮
+2020-09-15 10:05:55,568 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:05:55,568 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/ymtitlebar_left_btn_image')
+2020-09-15 10:05:55,632 - INFO - [settingPage.py - __init__ - 16] - 设置页面
+2020-09-15 10:05:55,632 - INFO - [settingPage.py - log_out_operation - 38] - 登出操作
+2020-09-15 10:05:55,633 - INFO - [settingPage.py - swipe_screen_down - 33] - 垂直向上滑动
+2020-09-15 10:05:55,633 - INFO - [base.py - swipe_screen - 82] - 执行滑动操作1,滑动时间为1500
+2020-09-15 10:05:59,088 - INFO - [settingPage.py - click_log_off - 21] - 点击退出
+2020-09-15 10:05:59,089 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:05:59,089 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='退出']")
+2020-09-15 10:05:59,233 - INFO - [settingPage.py - click_quit_msg_confirm - 27] - 点击退出提示确认
+2020-09-15 10:05:59,234 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:05:59,234 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='确认']")
+2020-09-15 10:06:00,449 - INFO - [homePage.py - __init__ - 17] - 首页
+2020-09-15 10:06:00,449 - INFO - [homePage.py - get_user_navigation_checked - 34] - 获取我 checked属性值
+2020-09-15 10:06:00,450 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='我']")
+2020-09-15 10:06:01,634 - INFO - [homePage.py - __init__ - 17] - 首页
+2020-09-15 10:06:01,634 - INFO - [homePage.py - click_user_navigation - 28] - 点击 “我” 
+2020-09-15 10:06:01,634 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:06:01,634 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='我']")
+2020-09-15 10:06:01,767 - INFO - [goLoginPage.py - __init__ - 13] - 获取去登录页面
+2020-09-15 10:06:01,768 - INFO - [goLoginPage.py - click_go_to_login - 18] - 点击 “已有账号，去登录” 
+2020-09-15 10:06:01,768 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:06:01,769 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/textView1')
+2020-09-15 10:06:02,950 - INFO - [test_bnal_login5.py - test_login_s - 64] - 输入账号:13862867164 ，输入密码:5201314yxk
+2020-09-15 10:06:02,951 - INFO - [nLoginPage.py - __init__ - 12] - 登录页面
+2020-09-15 10:06:02,952 - INFO - [nLoginPage.py - login_operation - 56] - 登录操作
+2020-09-15 10:06:02,952 - INFO - [nLoginPage.py - send_phone - 27] - 输入手机号:13862867164 
+2020-09-15 10:06:02,952 - INFO - [base.py - send_ele - 55] - 执行输入动作，输入内容为:13862867164 
+2020-09-15 10:06:02,953 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/logon_account_textview')
+2020-09-15 10:06:05,147 - INFO - [nLoginPage.py - send_password - 45] - 输入密码:5201314yxk
+2020-09-15 10:06:05,148 - INFO - [base.py - send_ele - 55] - 执行输入动作，输入内容为:5201314yxk
+2020-09-15 10:06:05,148 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/logon_password_textview')
+2020-09-15 10:06:06,247 - INFO - [nLoginPage.py - click_login_btn - 17] - 点击登录按钮
+2020-09-15 10:06:06,248 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:06:06,248 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='登录']")
+2020-09-15 10:06:06,783 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/tv_user_nikename')
+2020-09-15 10:06:07,997 - INFO - [yLoginPage.py - __init__ - 15] - 已登录页面
+2020-09-15 10:06:07,998 - INFO - [yLoginPage.py - click_setting_btn - 20] - 点击设置按钮
+2020-09-15 10:06:07,998 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:06:07,999 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/ymtitlebar_left_btn_image')
+2020-09-15 10:06:08,065 - INFO - [settingPage.py - __init__ - 16] - 设置页面
+2020-09-15 10:06:08,066 - INFO - [settingPage.py - log_out_operation - 38] - 登出操作
+2020-09-15 10:06:08,066 - INFO - [settingPage.py - swipe_screen_down - 33] - 垂直向上滑动
+2020-09-15 10:06:08,067 - INFO - [base.py - swipe_screen - 82] - 执行滑动操作1,滑动时间为1500
+2020-09-15 10:06:11,522 - INFO - [settingPage.py - click_log_off - 21] - 点击退出
+2020-09-15 10:06:11,522 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:06:11,522 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='退出']")
+2020-09-15 10:06:11,633 - INFO - [settingPage.py - click_quit_msg_confirm - 27] - 点击退出提示确认
+2020-09-15 10:06:11,633 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:06:11,634 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='确认']")
+2020-09-15 10:06:12,816 - INFO - [homePage.py - __init__ - 17] - 首页
+2020-09-15 10:06:12,816 - INFO - [homePage.py - get_user_navigation_checked - 34] - 获取我 checked属性值
+2020-09-15 10:06:12,817 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='我']")
+2020-09-15 10:06:13,523 - INFO - [homePage.py - __init__ - 17] - 首页
+2020-09-15 10:06:13,523 - INFO - [homePage.py - click_user_navigation - 28] - 点击 “我” 
+2020-09-15 10:06:13,524 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:06:13,524 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='我']")
+2020-09-15 10:06:13,682 - INFO - [goLoginPage.py - __init__ - 13] - 获取去登录页面
+2020-09-15 10:06:13,682 - INFO - [goLoginPage.py - click_go_to_login - 18] - 点击 “已有账号，去登录” 
+2020-09-15 10:06:13,683 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:06:13,683 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/textView1')
+2020-09-15 10:06:14,899 - INFO - [test_bnal_login5.py - test_login_s - 64] - 输入账号:13862867165，输入密码:5201314yxk
+2020-09-15 10:06:14,900 - INFO - [nLoginPage.py - __init__ - 12] - 登录页面
+2020-09-15 10:06:14,900 - INFO - [nLoginPage.py - login_operation - 56] - 登录操作
+2020-09-15 10:06:14,901 - INFO - [nLoginPage.py - send_phone - 27] - 输入手机号:13862867165
+2020-09-15 10:06:14,901 - INFO - [base.py - send_ele - 55] - 执行输入动作，输入内容为:13862867165
+2020-09-15 10:06:14,901 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/logon_account_textview')
+2020-09-15 10:06:17,081 - INFO - [nLoginPage.py - send_password - 45] - 输入密码:5201314yxk
+2020-09-15 10:06:17,081 - INFO - [base.py - send_ele - 55] - 执行输入动作，输入内容为:5201314yxk
+2020-09-15 10:06:17,082 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/logon_password_textview')
+2020-09-15 10:06:18,183 - INFO - [nLoginPage.py - click_login_btn - 17] - 点击登录按钮
+2020-09-15 10:06:18,183 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:06:18,183 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='登录']")
+2020-09-15 10:06:18,715 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/tv_user_nikename')
+2020-09-15 10:06:24,112 - INFO - [nLoginPage.py - __init__ - 12] - 登录页面
+2020-09-15 10:06:24,113 - INFO - [nLoginPage.py - click_close_login - 51] - 点击关闭登录
+2020-09-15 10:06:24,113 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:06:24,113 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/ymtitlebar_left_btn_image')
+2020-09-15 10:06:24,143 - INFO - [homePage.py - __init__ - 17] - 首页
+2020-09-15 10:06:24,143 - INFO - [homePage.py - click_user_navigation - 28] - 点击 “我” 
+2020-09-15 10:06:24,143 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:06:24,143 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='我']")
+2020-09-15 10:06:25,182 - INFO - [goLoginPage.py - __init__ - 13] - 获取去登录页面
+2020-09-15 10:06:25,182 - INFO - [goLoginPage.py - click_go_to_login - 18] - 点击 “已有账号，去登录” 
+2020-09-15 10:06:25,182 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:06:25,183 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/textView1')
+2020-09-15 10:06:26,382 - INFO - [test_bnal_login5.py - test_login_s - 64] - 输入账号:13862867164，输入密码:5201314yx
+2020-09-15 10:06:26,382 - INFO - [nLoginPage.py - __init__ - 12] - 登录页面
+2020-09-15 10:06:26,383 - INFO - [nLoginPage.py - login_operation - 56] - 登录操作
+2020-09-15 10:06:26,383 - INFO - [nLoginPage.py - send_phone - 27] - 输入手机号:13862867164
+2020-09-15 10:06:26,384 - INFO - [base.py - send_ele - 55] - 执行输入动作，输入内容为:13862867164
+2020-09-15 10:06:26,384 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/logon_account_textview')
+2020-09-15 10:06:28,632 - INFO - [nLoginPage.py - send_password - 45] - 输入密码:5201314yx
+2020-09-15 10:06:28,632 - INFO - [base.py - send_ele - 55] - 执行输入动作，输入内容为:5201314yx
+2020-09-15 10:06:28,633 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/logon_password_textview')
+2020-09-15 10:06:29,733 - INFO - [nLoginPage.py - click_login_btn - 17] - 点击登录按钮
+2020-09-15 10:06:29,733 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:06:29,734 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='登录']")
+2020-09-15 10:06:30,267 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/tv_user_nikename')
+2020-09-15 10:06:35,797 - INFO - [nLoginPage.py - __init__ - 12] - 登录页面
+2020-09-15 10:06:35,798 - INFO - [nLoginPage.py - click_close_login - 51] - 点击关闭登录
+2020-09-15 10:06:35,798 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:06:35,798 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/ymtitlebar_left_btn_image')
+2020-09-15 10:07:29,942 - INFO - [homePage.py - __init__ - 17] - 首页
+2020-09-15 10:07:29,942 - INFO - [homePage.py - close_update_btn - 39] - 判断，关闭更新提示
+2020-09-15 10:07:29,943 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@content-desc='关闭对话框']")
+2020-09-15 10:07:30,577 - INFO - [homePage.py - click_close_update - 22] - 点击 “x” 
+2020-09-15 10:07:30,578 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:07:30,578 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@content-desc='关闭对话框']")
+2020-09-15 10:07:30,642 - INFO - [homePage.py - __init__ - 17] - 首页
+2020-09-15 10:07:30,642 - INFO - [homePage.py - click_user_navigation - 28] - 点击 “我” 
+2020-09-15 10:07:30,642 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:07:30,642 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='我']")
+2020-09-15 10:07:31,205 - INFO - [goLoginPage.py - __init__ - 13] - 获取去登录页面
+2020-09-15 10:07:31,205 - INFO - [goLoginPage.py - click_go_to_login - 18] - 点击 “已有账号，去登录” 
+2020-09-15 10:07:31,205 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:07:31,205 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/textView1')
+2020-09-15 10:07:32,433 - INFO - [test_bnal_login5.py - test_login_s - 64] - 输入账号:13862867164，输入密码:5201314yxk
+2020-09-15 10:07:32,433 - INFO - [nLoginPage.py - __init__ - 12] - 登录页面
+2020-09-15 10:07:32,433 - INFO - [nLoginPage.py - login_operation - 56] - 登录操作
+2020-09-15 10:07:32,434 - INFO - [nLoginPage.py - send_phone - 27] - 输入手机号:13862867164
+2020-09-15 10:07:32,434 - INFO - [base.py - send_ele - 55] - 执行输入动作，输入内容为:13862867164
+2020-09-15 10:07:32,434 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/logon_account_textview')
+2020-09-15 10:07:34,664 - INFO - [nLoginPage.py - send_password - 45] - 输入密码:5201314yxk
+2020-09-15 10:07:34,664 - INFO - [base.py - send_ele - 55] - 执行输入动作，输入内容为:5201314yxk
+2020-09-15 10:07:34,664 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/logon_password_textview')
+2020-09-15 10:07:35,765 - INFO - [nLoginPage.py - click_login_btn - 17] - 点击登录按钮
+2020-09-15 10:07:35,765 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:07:35,765 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='登录']")
+2020-09-15 10:07:36,045 - INFO - [homePage.py - __init__ - 17] - 首页
+2020-09-15 10:07:36,045 - INFO - [homePage.py - click_user_navigation - 28] - 点击 “我” 
+2020-09-15 10:07:36,046 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:07:36,046 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='我']")
+2020-09-15 10:07:36,085 - INFO - [homePage.py - __init__ - 17] - 首页
+2020-09-15 10:07:36,085 - INFO - [homePage.py - click_user_navigation - 28] - 点击 “我” 
+2020-09-15 10:07:36,086 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:07:36,086 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='我']")
+2020-09-15 10:07:36,128 - INFO - [homePage.py - __init__ - 17] - 首页
+2020-09-15 10:07:36,129 - INFO - [homePage.py - click_user_navigation - 28] - 点击 “我” 
+2020-09-15 10:07:36,129 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:07:36,129 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='我']")
+2020-09-15 10:07:36,167 - INFO - [homePage.py - __init__ - 17] - 首页
+2020-09-15 10:07:36,168 - INFO - [homePage.py - click_user_navigation - 28] - 点击 “我” 
+2020-09-15 10:07:36,168 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:07:36,168 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='我']")
+2020-09-15 10:08:47,199 - INFO - [homePage.py - __init__ - 17] - 首页
+2020-09-15 10:08:47,199 - INFO - [homePage.py - close_update_btn - 39] - 判断，关闭更新提示
+2020-09-15 10:08:47,200 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@content-desc='关闭对话框']")
+2020-09-15 10:08:47,675 - INFO - [homePage.py - click_close_update - 22] - 点击 “x” 
+2020-09-15 10:08:47,675 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:08:47,675 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@content-desc='关闭对话框']")
+2020-09-15 10:08:47,766 - INFO - [homePage.py - __init__ - 17] - 首页
+2020-09-15 10:08:47,767 - INFO - [homePage.py - click_user_navigation - 28] - 点击 “我” 
+2020-09-15 10:08:47,767 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:08:47,767 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='我']")
+2020-09-15 10:08:48,599 - INFO - [goLoginPage.py - __init__ - 13] - 获取去登录页面
+2020-09-15 10:08:48,599 - INFO - [goLoginPage.py - click_go_to_login - 18] - 点击 “已有账号，去登录” 
+2020-09-15 10:08:48,599 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:08:48,599 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/textView1')
+2020-09-15 10:08:49,847 - INFO - [test_bnal_login5.py - test_login_s - 62] - 输入账号:13862867164，输入密码:5201314yxk
+2020-09-15 10:08:49,848 - INFO - [nLoginPage.py - __init__ - 12] - 登录页面
+2020-09-15 10:08:49,848 - INFO - [nLoginPage.py - login_operation - 56] - 登录操作
+2020-09-15 10:08:49,848 - INFO - [nLoginPage.py - send_phone - 27] - 输入手机号:13862867164
+2020-09-15 10:08:49,848 - INFO - [base.py - send_ele - 55] - 执行输入动作，输入内容为:13862867164
+2020-09-15 10:08:49,848 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/logon_account_textview')
+2020-09-15 10:08:52,029 - INFO - [nLoginPage.py - send_password - 45] - 输入密码:5201314yxk
+2020-09-15 10:08:52,029 - INFO - [base.py - send_ele - 55] - 执行输入动作，输入内容为:5201314yxk
+2020-09-15 10:08:52,029 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/logon_password_textview')
+2020-09-15 10:08:53,130 - INFO - [nLoginPage.py - click_login_btn - 17] - 点击登录按钮
+2020-09-15 10:08:53,130 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:08:53,130 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='登录']")
+2020-09-15 10:08:53,665 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/tv_user_nikename')
+2020-09-15 10:08:54,879 - INFO - [yLoginPage.py - __init__ - 15] - 已登录页面
+2020-09-15 10:08:54,880 - INFO - [yLoginPage.py - click_setting_btn - 20] - 点击设置按钮
+2020-09-15 10:08:54,880 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:08:54,880 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/ymtitlebar_left_btn_image')
+2020-09-15 10:08:54,949 - INFO - [settingPage.py - __init__ - 16] - 设置页面
+2020-09-15 10:08:54,949 - INFO - [settingPage.py - log_out_operation - 38] - 登出操作
+2020-09-15 10:08:54,949 - INFO - [settingPage.py - swipe_screen_down - 33] - 垂直向上滑动
+2020-09-15 10:08:54,949 - INFO - [base.py - swipe_screen - 82] - 执行滑动操作1,滑动时间为1500
+2020-09-15 10:08:58,403 - INFO - [settingPage.py - click_log_off - 21] - 点击退出
+2020-09-15 10:08:58,404 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:08:58,404 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='退出']")
+2020-09-15 10:08:58,532 - INFO - [settingPage.py - click_quit_msg_confirm - 27] - 点击退出提示确认
+2020-09-15 10:08:58,532 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:08:58,532 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='确认']")
+2020-09-15 10:08:59,731 - INFO - [homePage.py - __init__ - 17] - 首页
+2020-09-15 10:08:59,731 - INFO - [homePage.py - get_user_navigation_checked - 34] - 获取我 checked属性值
+2020-09-15 10:08:59,731 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='我']")
+2020-09-15 10:09:00,563 - INFO - [homePage.py - __init__ - 17] - 首页
+2020-09-15 10:09:00,564 - INFO - [homePage.py - click_user_navigation - 28] - 点击 “我” 
+2020-09-15 10:09:00,564 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:09:00,564 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='我']")
+2020-09-15 10:09:00,698 - INFO - [goLoginPage.py - __init__ - 13] - 获取去登录页面
+2020-09-15 10:09:00,698 - INFO - [goLoginPage.py - click_go_to_login - 18] - 点击 “已有账号，去登录” 
+2020-09-15 10:09:00,698 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:09:00,698 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/textView1')
+2020-09-15 10:09:02,034 - INFO - [test_bnal_login5.py - test_login_s - 62] - 输入账号: 13862867164，输入密码:5201314yxk
+2020-09-15 10:09:02,034 - INFO - [nLoginPage.py - __init__ - 12] - 登录页面
+2020-09-15 10:09:02,034 - INFO - [nLoginPage.py - login_operation - 56] - 登录操作
+2020-09-15 10:09:02,035 - INFO - [nLoginPage.py - send_phone - 27] - 输入手机号: 13862867164
+2020-09-15 10:09:02,035 - INFO - [base.py - send_ele - 55] - 执行输入动作，输入内容为: 13862867164
+2020-09-15 10:09:02,035 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/logon_account_textview')
+2020-09-15 10:09:04,330 - INFO - [nLoginPage.py - send_password - 45] - 输入密码:5201314yxk
+2020-09-15 10:09:04,331 - INFO - [base.py - send_ele - 55] - 执行输入动作，输入内容为:5201314yxk
+2020-09-15 10:09:04,331 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/logon_password_textview')
+2020-09-15 10:09:05,431 - INFO - [nLoginPage.py - click_login_btn - 17] - 点击登录按钮
+2020-09-15 10:09:05,431 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:09:05,431 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='登录']")
+2020-09-15 10:09:05,967 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/tv_user_nikename')
+2020-09-15 10:09:07,080 - INFO - [yLoginPage.py - __init__ - 15] - 已登录页面
+2020-09-15 10:09:07,081 - INFO - [yLoginPage.py - click_setting_btn - 20] - 点击设置按钮
+2020-09-15 10:09:07,081 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:09:07,081 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/ymtitlebar_left_btn_image')
+2020-09-15 10:09:07,150 - INFO - [settingPage.py - __init__ - 16] - 设置页面
+2020-09-15 10:09:07,150 - INFO - [settingPage.py - log_out_operation - 38] - 登出操作
+2020-09-15 10:09:07,150 - INFO - [settingPage.py - swipe_screen_down - 33] - 垂直向上滑动
+2020-09-15 10:09:07,151 - INFO - [base.py - swipe_screen - 82] - 执行滑动操作1,滑动时间为1500
+2020-09-15 10:09:10,605 - INFO - [settingPage.py - click_log_off - 21] - 点击退出
+2020-09-15 10:09:10,606 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:09:10,606 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='退出']")
+2020-09-15 10:09:10,752 - INFO - [settingPage.py - click_quit_msg_confirm - 27] - 点击退出提示确认
+2020-09-15 10:09:10,753 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:09:10,753 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='确认']")
+2020-09-15 10:09:11,982 - INFO - [homePage.py - __init__ - 17] - 首页
+2020-09-15 10:09:11,982 - INFO - [homePage.py - get_user_navigation_checked - 34] - 获取我 checked属性值
+2020-09-15 10:09:11,982 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='我']")
+2020-09-15 10:09:12,682 - INFO - [homePage.py - __init__ - 17] - 首页
+2020-09-15 10:09:12,682 - INFO - [homePage.py - click_user_navigation - 28] - 点击 “我” 
+2020-09-15 10:09:12,682 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:09:12,682 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='我']")
+2020-09-15 10:09:12,817 - INFO - [goLoginPage.py - __init__ - 13] - 获取去登录页面
+2020-09-15 10:09:12,818 - INFO - [goLoginPage.py - click_go_to_login - 18] - 点击 “已有账号，去登录” 
+2020-09-15 10:09:12,818 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:09:12,818 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/textView1')
+2020-09-15 10:09:14,031 - INFO - [test_bnal_login5.py - test_login_s - 62] - 输入账号:13862867164 ，输入密码:5201314yxk
+2020-09-15 10:09:14,032 - INFO - [nLoginPage.py - __init__ - 12] - 登录页面
+2020-09-15 10:09:14,032 - INFO - [nLoginPage.py - login_operation - 56] - 登录操作
+2020-09-15 10:09:14,033 - INFO - [nLoginPage.py - send_phone - 27] - 输入手机号:13862867164 
+2020-09-15 10:09:14,033 - INFO - [base.py - send_ele - 55] - 执行输入动作，输入内容为:13862867164 
+2020-09-15 10:09:14,033 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/logon_account_textview')
+2020-09-15 10:09:16,266 - INFO - [nLoginPage.py - send_password - 45] - 输入密码:5201314yxk
+2020-09-15 10:09:16,266 - INFO - [base.py - send_ele - 55] - 执行输入动作，输入内容为:5201314yxk
+2020-09-15 10:09:16,267 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/logon_password_textview')
+2020-09-15 10:09:17,348 - INFO - [nLoginPage.py - click_login_btn - 17] - 点击登录按钮
+2020-09-15 10:09:17,348 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:09:17,348 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='登录']")
+2020-09-15 10:09:17,883 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/tv_user_nikename')
+2020-09-15 10:09:19,095 - INFO - [yLoginPage.py - __init__ - 15] - 已登录页面
+2020-09-15 10:09:19,095 - INFO - [yLoginPage.py - click_setting_btn - 20] - 点击设置按钮
+2020-09-15 10:09:19,096 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:09:19,096 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/ymtitlebar_left_btn_image')
+2020-09-15 10:09:19,166 - INFO - [settingPage.py - __init__ - 16] - 设置页面
+2020-09-15 10:09:19,166 - INFO - [settingPage.py - log_out_operation - 38] - 登出操作
+2020-09-15 10:09:19,167 - INFO - [settingPage.py - swipe_screen_down - 33] - 垂直向上滑动
+2020-09-15 10:09:19,167 - INFO - [base.py - swipe_screen - 82] - 执行滑动操作1,滑动时间为1500
+2020-09-15 10:09:22,622 - INFO - [settingPage.py - click_log_off - 21] - 点击退出
+2020-09-15 10:09:22,623 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:09:22,623 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='退出']")
+2020-09-15 10:09:22,768 - INFO - [settingPage.py - click_quit_msg_confirm - 27] - 点击退出提示确认
+2020-09-15 10:09:22,768 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:09:22,768 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='确认']")
+2020-09-15 10:09:23,948 - INFO - [homePage.py - __init__ - 17] - 首页
+2020-09-15 10:09:23,948 - INFO - [homePage.py - get_user_navigation_checked - 34] - 获取我 checked属性值
+2020-09-15 10:09:23,949 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='我']")
+2020-09-15 10:09:24,664 - INFO - [homePage.py - __init__ - 17] - 首页
+2020-09-15 10:09:24,664 - INFO - [homePage.py - click_user_navigation - 28] - 点击 “我” 
+2020-09-15 10:09:24,664 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:09:24,664 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='我']")
+2020-09-15 10:09:24,798 - INFO - [goLoginPage.py - __init__ - 13] - 获取去登录页面
+2020-09-15 10:09:24,799 - INFO - [goLoginPage.py - click_go_to_login - 18] - 点击 “已有账号，去登录” 
+2020-09-15 10:09:24,799 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:09:24,799 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/textView1')
+2020-09-15 10:09:25,999 - INFO - [test_bnal_login5.py - test_login_s - 62] - 输入账号:13862867165，输入密码:5201314yxk
+2020-09-15 10:09:25,999 - INFO - [nLoginPage.py - __init__ - 12] - 登录页面
+2020-09-15 10:09:25,999 - INFO - [nLoginPage.py - login_operation - 56] - 登录操作
+2020-09-15 10:09:26,000 - INFO - [nLoginPage.py - send_phone - 27] - 输入手机号:13862867165
+2020-09-15 10:09:26,000 - INFO - [base.py - send_ele - 55] - 执行输入动作，输入内容为:13862867165
+2020-09-15 10:09:26,000 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/logon_account_textview')
+2020-09-15 10:09:28,166 - INFO - [nLoginPage.py - send_password - 45] - 输入密码:5201314yxk
+2020-09-15 10:09:28,166 - INFO - [base.py - send_ele - 55] - 执行输入动作，输入内容为:5201314yxk
+2020-09-15 10:09:28,166 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/logon_password_textview')
+2020-09-15 10:09:29,264 - INFO - [nLoginPage.py - click_login_btn - 17] - 点击登录按钮
+2020-09-15 10:09:29,265 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:09:29,266 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='登录']")
+2020-09-15 10:09:29,798 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/tv_user_nikename')
+2020-09-15 10:09:35,498 - INFO - [nLoginPage.py - __init__ - 12] - 登录页面
+2020-09-15 10:09:35,499 - INFO - [nLoginPage.py - click_close_login - 51] - 点击关闭登录
+2020-09-15 10:09:35,499 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:09:35,499 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/ymtitlebar_left_btn_image')
+2020-09-15 10:09:35,524 - INFO - [homePage.py - __init__ - 17] - 首页
+2020-09-15 10:09:35,524 - INFO - [homePage.py - click_user_navigation - 28] - 点击 “我” 
+2020-09-15 10:09:35,524 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:09:35,524 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='我']")
+2020-09-15 10:09:36,566 - INFO - [goLoginPage.py - __init__ - 13] - 获取去登录页面
+2020-09-15 10:09:36,566 - INFO - [goLoginPage.py - click_go_to_login - 18] - 点击 “已有账号，去登录” 
+2020-09-15 10:09:36,567 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:09:36,567 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/textView1')
+2020-09-15 10:09:37,764 - INFO - [test_bnal_login5.py - test_login_s - 62] - 输入账号:13862867164，输入密码:5201314yx
+2020-09-15 10:09:37,764 - INFO - [nLoginPage.py - __init__ - 12] - 登录页面
+2020-09-15 10:09:37,765 - INFO - [nLoginPage.py - login_operation - 56] - 登录操作
+2020-09-15 10:09:37,765 - INFO - [nLoginPage.py - send_phone - 27] - 输入手机号:13862867164
+2020-09-15 10:09:37,765 - INFO - [base.py - send_ele - 55] - 执行输入动作，输入内容为:13862867164
+2020-09-15 10:09:37,765 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/logon_account_textview')
+2020-09-15 10:09:39,981 - INFO - [nLoginPage.py - send_password - 45] - 输入密码:5201314yx
+2020-09-15 10:09:39,981 - INFO - [base.py - send_ele - 55] - 执行输入动作，输入内容为:5201314yx
+2020-09-15 10:09:39,982 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/logon_password_textview')
+2020-09-15 10:09:41,082 - INFO - [nLoginPage.py - click_login_btn - 17] - 点击登录按钮
+2020-09-15 10:09:41,083 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:09:41,083 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='登录']")
+2020-09-15 10:09:41,613 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/tv_user_nikename')
+2020-09-15 10:09:47,155 - INFO - [nLoginPage.py - __init__ - 12] - 登录页面
+2020-09-15 10:09:47,155 - INFO - [nLoginPage.py - click_close_login - 51] - 点击关闭登录
+2020-09-15 10:09:47,155 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:09:47,156 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/ymtitlebar_left_btn_image')
+2020-09-15 10:10:28,984 - INFO - [homePage.py - __init__ - 17] - 首页
+2020-09-15 10:10:28,984 - INFO - [homePage.py - close_update_btn - 39] - 判断，关闭更新提示
+2020-09-15 10:10:28,985 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@content-desc='关闭对话框']")
+2020-09-15 10:10:29,441 - INFO - [homePage.py - click_close_update - 22] - 点击 “x” 
+2020-09-15 10:10:29,441 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:10:29,441 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@content-desc='关闭对话框']")
+2020-09-15 10:10:29,521 - INFO - [homePage.py - __init__ - 17] - 首页
+2020-09-15 10:10:29,521 - INFO - [homePage.py - click_user_navigation - 28] - 点击 “我” 
+2020-09-15 10:10:29,522 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:10:29,522 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='我']")
+2020-09-15 10:10:30,081 - INFO - [goLoginPage.py - __init__ - 13] - 获取去登录页面
+2020-09-15 10:10:30,081 - INFO - [goLoginPage.py - click_go_to_login - 18] - 点击 “已有账号，去登录” 
+2020-09-15 10:10:30,081 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:10:30,082 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/textView1')
+2020-09-15 10:10:31,349 - INFO - [test_bnal_login5.py - test_login_s - 62] - 输入账号:13862867164，输入密码:5201314yxk
+2020-09-15 10:10:31,350 - INFO - [nLoginPage.py - __init__ - 12] - 登录页面
+2020-09-15 10:10:31,350 - INFO - [nLoginPage.py - login_operation - 56] - 登录操作
+2020-09-15 10:10:31,350 - INFO - [nLoginPage.py - send_phone - 27] - 输入手机号:13862867164
+2020-09-15 10:10:31,350 - INFO - [base.py - send_ele - 55] - 执行输入动作，输入内容为:13862867164
+2020-09-15 10:10:31,351 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/logon_account_textview')
+2020-09-15 10:10:33,565 - INFO - [nLoginPage.py - send_password - 45] - 输入密码:5201314yxk
+2020-09-15 10:10:33,565 - INFO - [base.py - send_ele - 55] - 执行输入动作，输入内容为:5201314yxk
+2020-09-15 10:10:33,565 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/logon_password_textview')
+2020-09-15 10:10:34,664 - INFO - [nLoginPage.py - click_login_btn - 17] - 点击登录按钮
+2020-09-15 10:10:34,665 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:10:34,665 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='登录']")
+2020-09-15 10:10:35,198 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/tv_user_nikename')
+2020-09-15 10:10:36,364 - INFO - [yLoginPage.py - __init__ - 15] - 已登录页面
+2020-09-15 10:10:36,364 - INFO - [yLoginPage.py - click_setting_btn - 20] - 点击设置按钮
+2020-09-15 10:10:36,364 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:10:36,364 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/ymtitlebar_left_btn_image')
+2020-09-15 10:10:36,415 - INFO - [settingPage.py - __init__ - 16] - 设置页面
+2020-09-15 10:10:36,416 - INFO - [settingPage.py - log_out_operation - 38] - 登出操作
+2020-09-15 10:10:36,416 - INFO - [settingPage.py - swipe_screen_down - 33] - 垂直向上滑动
+2020-09-15 10:10:36,416 - INFO - [base.py - swipe_screen - 82] - 执行滑动操作1,滑动时间为1500
+2020-09-15 10:10:39,888 - INFO - [settingPage.py - click_log_off - 21] - 点击退出
+2020-09-15 10:10:39,888 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:10:39,888 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='退出']")
+2020-09-15 10:10:40,034 - INFO - [settingPage.py - click_quit_msg_confirm - 27] - 点击退出提示确认
+2020-09-15 10:10:40,034 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:10:40,034 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='确认']")
+2020-09-15 10:10:41,232 - INFO - [homePage.py - __init__ - 17] - 首页
+2020-09-15 10:10:41,232 - INFO - [homePage.py - get_user_navigation_checked - 34] - 获取我 checked属性值
+2020-09-15 10:10:41,232 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='我']")
+2020-09-15 10:10:42,095 - INFO - [homePage.py - __init__ - 17] - 首页
+2020-09-15 10:10:42,095 - INFO - [homePage.py - click_user_navigation - 28] - 点击 “我” 
+2020-09-15 10:10:42,095 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:10:42,096 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='我']")
+2020-09-15 10:10:42,282 - INFO - [goLoginPage.py - __init__ - 13] - 获取去登录页面
+2020-09-15 10:10:42,283 - INFO - [goLoginPage.py - click_go_to_login - 18] - 点击 “已有账号，去登录” 
+2020-09-15 10:10:42,283 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:10:42,283 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/textView1')
+2020-09-15 10:10:43,484 - INFO - [test_bnal_login5.py - test_login_s - 62] - 输入账号: 13862867164，输入密码:5201314yxk
+2020-09-15 10:10:43,485 - INFO - [nLoginPage.py - __init__ - 12] - 登录页面
+2020-09-15 10:10:43,485 - INFO - [nLoginPage.py - login_operation - 56] - 登录操作
+2020-09-15 10:10:43,485 - INFO - [nLoginPage.py - send_phone - 27] - 输入手机号: 13862867164
+2020-09-15 10:10:43,485 - INFO - [base.py - send_ele - 55] - 执行输入动作，输入内容为: 13862867164
+2020-09-15 10:10:43,485 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/logon_account_textview')
+2020-09-15 10:10:45,717 - INFO - [nLoginPage.py - send_password - 45] - 输入密码:5201314yxk
+2020-09-15 10:10:45,718 - INFO - [base.py - send_ele - 55] - 执行输入动作，输入内容为:5201314yxk
+2020-09-15 10:10:45,718 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/logon_password_textview')
+2020-09-15 10:10:46,814 - INFO - [nLoginPage.py - click_login_btn - 17] - 点击登录按钮
+2020-09-15 10:10:46,815 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:10:46,815 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='登录']")
+2020-09-15 10:10:47,348 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/tv_user_nikename')
+2020-09-15 10:10:48,534 - INFO - [yLoginPage.py - __init__ - 15] - 已登录页面
+2020-09-15 10:10:48,534 - INFO - [yLoginPage.py - click_setting_btn - 20] - 点击设置按钮
+2020-09-15 10:10:48,535 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:10:48,535 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/ymtitlebar_left_btn_image')
+2020-09-15 10:10:48,584 - INFO - [settingPage.py - __init__ - 16] - 设置页面
+2020-09-15 10:10:48,584 - INFO - [settingPage.py - log_out_operation - 38] - 登出操作
+2020-09-15 10:10:48,584 - INFO - [settingPage.py - swipe_screen_down - 33] - 垂直向上滑动
+2020-09-15 10:10:48,585 - INFO - [base.py - swipe_screen - 82] - 执行滑动操作1,滑动时间为1500
+2020-09-15 10:10:52,038 - INFO - [settingPage.py - click_log_off - 21] - 点击退出
+2020-09-15 10:10:52,038 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:10:52,039 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='退出']")
+2020-09-15 10:10:52,186 - INFO - [settingPage.py - click_quit_msg_confirm - 27] - 点击退出提示确认
+2020-09-15 10:10:52,186 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:10:52,187 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='确认']")
+2020-09-15 10:10:53,399 - INFO - [homePage.py - __init__ - 17] - 首页
+2020-09-15 10:10:53,399 - INFO - [homePage.py - get_user_navigation_checked - 34] - 获取我 checked属性值
+2020-09-15 10:10:53,399 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='我']")
+2020-09-15 10:10:54,118 - INFO - [homePage.py - __init__ - 17] - 首页
+2020-09-15 10:10:54,118 - INFO - [homePage.py - click_user_navigation - 28] - 点击 “我” 
+2020-09-15 10:10:54,118 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:10:54,119 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='我']")
+2020-09-15 10:10:54,297 - INFO - [goLoginPage.py - __init__ - 13] - 获取去登录页面
+2020-09-15 10:10:54,298 - INFO - [goLoginPage.py - click_go_to_login - 18] - 点击 “已有账号，去登录” 
+2020-09-15 10:10:54,298 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:10:54,298 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/textView1')
+2020-09-15 10:10:55,565 - INFO - [test_bnal_login5.py - test_login_s - 62] - 输入账号:13862867164 ，输入密码:5201314yxk
+2020-09-15 10:10:55,566 - INFO - [nLoginPage.py - __init__ - 12] - 登录页面
+2020-09-15 10:10:55,566 - INFO - [nLoginPage.py - login_operation - 56] - 登录操作
+2020-09-15 10:10:55,566 - INFO - [nLoginPage.py - send_phone - 27] - 输入手机号:13862867164 
+2020-09-15 10:10:55,567 - INFO - [base.py - send_ele - 55] - 执行输入动作，输入内容为:13862867164 
+2020-09-15 10:10:55,567 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/logon_account_textview')
+2020-09-15 10:10:57,796 - INFO - [nLoginPage.py - send_password - 45] - 输入密码:5201314yxk
+2020-09-15 10:10:57,796 - INFO - [base.py - send_ele - 55] - 执行输入动作，输入内容为:5201314yxk
+2020-09-15 10:10:57,797 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/logon_password_textview')
+2020-09-15 10:10:58,903 - INFO - [nLoginPage.py - click_login_btn - 17] - 点击登录按钮
+2020-09-15 10:10:58,903 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:10:58,903 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='登录']")
+2020-09-15 10:10:59,432 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/tv_user_nikename')
+2020-09-15 10:11:00,515 - INFO - [yLoginPage.py - __init__ - 15] - 已登录页面
+2020-09-15 10:11:00,516 - INFO - [yLoginPage.py - click_setting_btn - 20] - 点击设置按钮
+2020-09-15 10:11:00,516 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:11:00,516 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/ymtitlebar_left_btn_image')
+2020-09-15 10:11:00,565 - INFO - [settingPage.py - __init__ - 16] - 设置页面
+2020-09-15 10:11:00,565 - INFO - [settingPage.py - log_out_operation - 38] - 登出操作
+2020-09-15 10:11:00,566 - INFO - [settingPage.py - swipe_screen_down - 33] - 垂直向上滑动
+2020-09-15 10:11:00,566 - INFO - [base.py - swipe_screen - 82] - 执行滑动操作1,滑动时间为1500
+2020-09-15 10:11:04,021 - INFO - [settingPage.py - click_log_off - 21] - 点击退出
+2020-09-15 10:11:04,021 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:11:04,022 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='退出']")
+2020-09-15 10:11:04,199 - INFO - [settingPage.py - click_quit_msg_confirm - 27] - 点击退出提示确认
+2020-09-15 10:11:04,199 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:11:04,199 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='确认']")
+2020-09-15 10:11:05,414 - INFO - [homePage.py - __init__ - 17] - 首页
+2020-09-15 10:11:05,415 - INFO - [homePage.py - get_user_navigation_checked - 34] - 获取我 checked属性值
+2020-09-15 10:11:05,415 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='我']")
+2020-09-15 10:11:06,349 - INFO - [homePage.py - __init__ - 17] - 首页
+2020-09-15 10:11:06,350 - INFO - [homePage.py - click_user_navigation - 28] - 点击 “我” 
+2020-09-15 10:11:06,350 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:11:06,350 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='我']")
+2020-09-15 10:11:06,532 - INFO - [goLoginPage.py - __init__ - 13] - 获取去登录页面
+2020-09-15 10:11:06,532 - INFO - [goLoginPage.py - click_go_to_login - 18] - 点击 “已有账号，去登录” 
+2020-09-15 10:11:06,532 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:11:06,533 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/textView1')
+2020-09-15 10:11:07,884 - INFO - [test_bnal_login5.py - test_login_s - 62] - 输入账号:13862867165，输入密码:5201314yxk
+2020-09-15 10:11:07,884 - INFO - [nLoginPage.py - __init__ - 12] - 登录页面
+2020-09-15 10:11:07,885 - INFO - [nLoginPage.py - login_operation - 56] - 登录操作
+2020-09-15 10:11:07,885 - INFO - [nLoginPage.py - send_phone - 27] - 输入手机号:13862867165
+2020-09-15 10:11:07,885 - INFO - [base.py - send_ele - 55] - 执行输入动作，输入内容为:13862867165
+2020-09-15 10:11:07,885 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/logon_account_textview')
+2020-09-15 10:11:10,180 - INFO - [nLoginPage.py - send_password - 45] - 输入密码:5201314yxk
+2020-09-15 10:11:10,180 - INFO - [base.py - send_ele - 55] - 执行输入动作，输入内容为:5201314yxk
+2020-09-15 10:11:10,180 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/logon_password_textview')
+2020-09-15 10:11:11,282 - INFO - [nLoginPage.py - click_login_btn - 17] - 点击登录按钮
+2020-09-15 10:11:11,282 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:11:11,282 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='登录']")
+2020-09-15 10:11:11,818 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/tv_user_nikename')
+2020-09-15 10:11:16,926 - INFO - [nLoginPage.py - __init__ - 12] - 登录页面
+2020-09-15 10:11:16,927 - INFO - [nLoginPage.py - click_close_login - 51] - 点击关闭登录
+2020-09-15 10:11:16,927 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:11:16,928 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/ymtitlebar_left_btn_image')
+2020-09-15 10:11:16,952 - INFO - [homePage.py - __init__ - 17] - 首页
+2020-09-15 10:11:16,953 - INFO - [homePage.py - click_user_navigation - 28] - 点击 “我” 
+2020-09-15 10:11:16,953 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:11:16,953 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='我']")
+2020-09-15 10:11:18,168 - INFO - [goLoginPage.py - __init__ - 13] - 获取去登录页面
+2020-09-15 10:11:18,168 - INFO - [goLoginPage.py - click_go_to_login - 18] - 点击 “已有账号，去登录” 
+2020-09-15 10:11:18,169 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:11:18,169 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/textView1')
+2020-09-15 10:11:19,332 - INFO - [test_bnal_login5.py - test_login_s - 62] - 输入账号:13862867164，输入密码:5201314yx
+2020-09-15 10:11:19,332 - INFO - [nLoginPage.py - __init__ - 12] - 登录页面
+2020-09-15 10:11:19,333 - INFO - [nLoginPage.py - login_operation - 56] - 登录操作
+2020-09-15 10:11:19,333 - INFO - [nLoginPage.py - send_phone - 27] - 输入手机号:13862867164
+2020-09-15 10:11:19,333 - INFO - [base.py - send_ele - 55] - 执行输入动作，输入内容为:13862867164
+2020-09-15 10:11:19,333 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/logon_account_textview')
+2020-09-15 10:11:21,579 - INFO - [nLoginPage.py - send_password - 45] - 输入密码:5201314yx
+2020-09-15 10:11:21,579 - INFO - [base.py - send_ele - 55] - 执行输入动作，输入内容为:5201314yx
+2020-09-15 10:11:21,579 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/logon_password_textview')
+2020-09-15 10:11:22,682 - INFO - [nLoginPage.py - click_login_btn - 17] - 点击登录按钮
+2020-09-15 10:11:22,682 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:11:22,682 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='登录']")
+2020-09-15 10:11:23,215 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/tv_user_nikename')
+2020-09-15 10:11:28,894 - INFO - [nLoginPage.py - __init__ - 12] - 登录页面
+2020-09-15 10:11:28,895 - INFO - [nLoginPage.py - click_close_login - 51] - 点击关闭登录
+2020-09-15 10:11:28,895 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:11:28,895 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/ymtitlebar_left_btn_image')
+2020-09-15 10:19:19,154 - INFO - [homePage.py - __init__ - 17] - 首页
+2020-09-15 10:19:19,155 - INFO - [homePage.py - close_update_btn - 39] - 判断，关闭更新提示
+2020-09-15 10:19:19,155 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@content-desc='关闭对话框']")
+2020-09-15 10:19:19,629 - INFO - [homePage.py - click_close_update - 22] - 点击 “x” 
+2020-09-15 10:19:19,630 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:19:19,630 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@content-desc='关闭对话框']")
+2020-09-15 10:19:19,703 - INFO - [homePage.py - __init__ - 17] - 首页
+2020-09-15 10:19:19,704 - INFO - [homePage.py - click_user_navigation - 28] - 点击 “我” 
+2020-09-15 10:19:19,705 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:19:19,705 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='我']")
+2020-09-15 10:19:20,266 - INFO - [goLoginPage.py - __init__ - 13] - 获取去登录页面
+2020-09-15 10:19:20,266 - INFO - [goLoginPage.py - click_go_to_login - 18] - 点击 “已有账号，去登录” 
+2020-09-15 10:19:20,266 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:19:20,266 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/textView1')
+2020-09-15 10:19:21,682 - INFO - [test_bnal_login5.py - test_login_s - 63] - 输入账号:13862867164，输入密码:5201314yxk
+2020-09-15 10:19:21,682 - INFO - [nLoginPage.py - __init__ - 12] - 登录页面
+2020-09-15 10:19:21,683 - INFO - [nLoginPage.py - login_operation - 56] - 登录操作
+2020-09-15 10:19:21,683 - INFO - [nLoginPage.py - send_phone - 27] - 输入手机号:13862867164
+2020-09-15 10:19:21,683 - INFO - [base.py - send_ele - 55] - 执行输入动作，输入内容为:13862867164
+2020-09-15 10:19:21,683 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/logon_account_textview')
+2020-09-15 10:19:23,981 - INFO - [nLoginPage.py - send_password - 45] - 输入密码:5201314yxk
+2020-09-15 10:19:23,981 - INFO - [base.py - send_ele - 55] - 执行输入动作，输入内容为:5201314yxk
+2020-09-15 10:19:23,981 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/logon_password_textview')
+2020-09-15 10:19:25,081 - INFO - [nLoginPage.py - click_login_btn - 17] - 点击登录按钮
+2020-09-15 10:19:25,081 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:19:25,082 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='登录']")
+2020-09-15 10:19:25,617 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/tv_user_nikename')
+2020-09-15 10:19:26,764 - INFO - [yLoginPage.py - __init__ - 15] - 已登录页面
+2020-09-15 10:19:26,765 - INFO - [yLoginPage.py - click_setting_btn - 20] - 点击设置按钮
+2020-09-15 10:19:26,765 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:19:26,766 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/ymtitlebar_left_btn_image')
+2020-09-15 10:19:26,817 - INFO - [settingPage.py - __init__ - 16] - 设置页面
+2020-09-15 10:19:26,817 - INFO - [settingPage.py - log_out_operation - 38] - 登出操作
+2020-09-15 10:19:26,817 - INFO - [settingPage.py - swipe_screen_down - 33] - 垂直向上滑动
+2020-09-15 10:19:26,817 - INFO - [base.py - swipe_screen - 82] - 执行滑动操作1,滑动时间为1500
+2020-09-15 10:19:30,269 - INFO - [settingPage.py - click_log_off - 21] - 点击退出
+2020-09-15 10:19:30,269 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:19:30,269 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='退出']")
+2020-09-15 10:19:30,400 - INFO - [settingPage.py - click_quit_msg_confirm - 27] - 点击退出提示确认
+2020-09-15 10:19:30,400 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:19:30,401 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='确认']")
+2020-09-15 10:19:31,616 - INFO - [homePage.py - __init__ - 17] - 首页
+2020-09-15 10:19:31,616 - INFO - [homePage.py - get_user_navigation_checked - 34] - 获取我 checked属性值
+2020-09-15 10:19:31,616 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='我']")
+2020-09-15 10:19:32,433 - INFO - [homePage.py - __init__ - 17] - 首页
+2020-09-15 10:19:32,434 - INFO - [homePage.py - click_user_navigation - 28] - 点击 “我” 
+2020-09-15 10:19:32,434 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:19:32,435 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='我']")
+2020-09-15 10:19:32,563 - INFO - [goLoginPage.py - __init__ - 13] - 获取去登录页面
+2020-09-15 10:19:32,564 - INFO - [goLoginPage.py - click_go_to_login - 18] - 点击 “已有账号，去登录” 
+2020-09-15 10:19:32,564 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:19:32,564 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/textView1')
+2020-09-15 10:19:33,899 - INFO - [test_bnal_login5.py - test_login_s - 63] - 输入账号: 13862867164，输入密码:5201314yxk
+2020-09-15 10:19:33,899 - INFO - [nLoginPage.py - __init__ - 12] - 登录页面
+2020-09-15 10:19:33,899 - INFO - [nLoginPage.py - login_operation - 56] - 登录操作
+2020-09-15 10:19:33,900 - INFO - [nLoginPage.py - send_phone - 27] - 输入手机号: 13862867164
+2020-09-15 10:19:33,900 - INFO - [base.py - send_ele - 55] - 执行输入动作，输入内容为: 13862867164
+2020-09-15 10:19:33,900 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/logon_account_textview')
+2020-09-15 10:19:36,182 - INFO - [nLoginPage.py - send_password - 45] - 输入密码:5201314yxk
+2020-09-15 10:19:36,183 - INFO - [base.py - send_ele - 55] - 执行输入动作，输入内容为:5201314yxk
+2020-09-15 10:19:36,183 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/logon_password_textview')
+2020-09-15 10:19:37,282 - INFO - [nLoginPage.py - click_login_btn - 17] - 点击登录按钮
+2020-09-15 10:19:37,282 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:19:37,282 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='登录']")
+2020-09-15 10:19:37,817 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/tv_user_nikename')
+2020-09-15 10:19:38,900 - INFO - [yLoginPage.py - __init__ - 15] - 已登录页面
+2020-09-15 10:19:38,900 - INFO - [yLoginPage.py - click_setting_btn - 20] - 点击设置按钮
+2020-09-15 10:19:38,900 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:19:38,900 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/ymtitlebar_left_btn_image')
+2020-09-15 10:19:38,950 - INFO - [settingPage.py - __init__ - 16] - 设置页面
+2020-09-15 10:19:38,950 - INFO - [settingPage.py - log_out_operation - 38] - 登出操作
+2020-09-15 10:19:38,950 - INFO - [settingPage.py - swipe_screen_down - 33] - 垂直向上滑动
+2020-09-15 10:19:38,950 - INFO - [base.py - swipe_screen - 82] - 执行滑动操作1,滑动时间为1500
+2020-09-15 10:19:42,405 - INFO - [settingPage.py - click_log_off - 21] - 点击退出
+2020-09-15 10:19:42,406 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:19:42,406 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='退出']")
+2020-09-15 10:19:42,581 - INFO - [settingPage.py - click_quit_msg_confirm - 27] - 点击退出提示确认
+2020-09-15 10:19:42,581 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:19:42,581 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='确认']")
+2020-09-15 10:19:43,799 - INFO - [homePage.py - __init__ - 17] - 首页
+2020-09-15 10:19:43,799 - INFO - [homePage.py - get_user_navigation_checked - 34] - 获取我 checked属性值
+2020-09-15 10:19:43,799 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='我']")
+2020-09-15 10:19:44,501 - INFO - [homePage.py - __init__ - 17] - 首页
+2020-09-15 10:19:44,501 - INFO - [homePage.py - click_user_navigation - 28] - 点击 “我” 
+2020-09-15 10:19:44,501 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:19:44,501 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='我']")
+2020-09-15 10:19:44,633 - INFO - [goLoginPage.py - __init__ - 13] - 获取去登录页面
+2020-09-15 10:19:44,633 - INFO - [goLoginPage.py - click_go_to_login - 18] - 点击 “已有账号，去登录” 
+2020-09-15 10:19:44,633 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:19:44,633 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/textView1')
+2020-09-15 10:19:45,935 - INFO - [test_bnal_login5.py - test_login_s - 63] - 输入账号:13862867164 ，输入密码:5201314yxk
+2020-09-15 10:19:45,935 - INFO - [nLoginPage.py - __init__ - 12] - 登录页面
+2020-09-15 10:19:45,936 - INFO - [nLoginPage.py - login_operation - 56] - 登录操作
+2020-09-15 10:19:45,936 - INFO - [nLoginPage.py - send_phone - 27] - 输入手机号:13862867164 
+2020-09-15 10:19:45,937 - INFO - [base.py - send_ele - 55] - 执行输入动作，输入内容为:13862867164 
+2020-09-15 10:19:45,937 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/logon_account_textview')
+2020-09-15 10:19:48,215 - INFO - [nLoginPage.py - send_password - 45] - 输入密码:5201314yxk
+2020-09-15 10:19:48,215 - INFO - [base.py - send_ele - 55] - 执行输入动作，输入内容为:5201314yxk
+2020-09-15 10:19:48,215 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/logon_password_textview')
+2020-09-15 10:19:49,315 - INFO - [nLoginPage.py - click_login_btn - 17] - 点击登录按钮
+2020-09-15 10:19:49,316 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:19:49,316 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='登录']")
+2020-09-15 10:19:49,852 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/tv_user_nikename')
+2020-09-15 10:19:50,935 - INFO - [yLoginPage.py - __init__ - 15] - 已登录页面
+2020-09-15 10:19:50,935 - INFO - [yLoginPage.py - click_setting_btn - 20] - 点击设置按钮
+2020-09-15 10:19:50,936 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:19:50,936 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/ymtitlebar_left_btn_image')
+2020-09-15 10:19:50,997 - INFO - [settingPage.py - __init__ - 16] - 设置页面
+2020-09-15 10:19:50,998 - INFO - [settingPage.py - log_out_operation - 38] - 登出操作
+2020-09-15 10:19:50,999 - INFO - [settingPage.py - swipe_screen_down - 33] - 垂直向上滑动
+2020-09-15 10:19:50,999 - INFO - [base.py - swipe_screen - 82] - 执行滑动操作1,滑动时间为1500
+2020-09-15 10:19:54,456 - INFO - [settingPage.py - click_log_off - 21] - 点击退出
+2020-09-15 10:19:54,456 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:19:54,456 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='退出']")
+2020-09-15 10:19:54,583 - INFO - [settingPage.py - click_quit_msg_confirm - 27] - 点击退出提示确认
+2020-09-15 10:19:54,583 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:19:54,583 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='确认']")
+2020-09-15 10:19:55,764 - INFO - [homePage.py - __init__ - 17] - 首页
+2020-09-15 10:19:55,765 - INFO - [homePage.py - get_user_navigation_checked - 34] - 获取我 checked属性值
+2020-09-15 10:19:55,765 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='我']")
+2020-09-15 10:19:56,467 - INFO - [homePage.py - __init__ - 17] - 首页
+2020-09-15 10:19:56,468 - INFO - [homePage.py - click_user_navigation - 28] - 点击 “我” 
+2020-09-15 10:19:56,468 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:19:56,468 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='我']")
+2020-09-15 10:19:56,600 - INFO - [goLoginPage.py - __init__ - 13] - 获取去登录页面
+2020-09-15 10:19:56,600 - INFO - [goLoginPage.py - click_go_to_login - 18] - 点击 “已有账号，去登录” 
+2020-09-15 10:19:56,600 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:19:56,601 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/textView1')
+2020-09-15 10:19:57,815 - INFO - [test_bnal_login5.py - test_login_s - 63] - 输入账号:13862867165，输入密码:5201314yxk
+2020-09-15 10:19:57,816 - INFO - [nLoginPage.py - __init__ - 12] - 登录页面
+2020-09-15 10:19:57,816 - INFO - [nLoginPage.py - login_operation - 56] - 登录操作
+2020-09-15 10:19:57,816 - INFO - [nLoginPage.py - send_phone - 27] - 输入手机号:13862867165
+2020-09-15 10:19:57,816 - INFO - [base.py - send_ele - 55] - 执行输入动作，输入内容为:13862867165
+2020-09-15 10:19:57,817 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/logon_account_textview')
+2020-09-15 10:20:00,033 - INFO - [nLoginPage.py - send_password - 45] - 输入密码:5201314yxk
+2020-09-15 10:20:00,033 - INFO - [base.py - send_ele - 55] - 执行输入动作，输入内容为:5201314yxk
+2020-09-15 10:20:00,033 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/logon_password_textview')
+2020-09-15 10:20:01,131 - INFO - [nLoginPage.py - click_login_btn - 17] - 点击登录按钮
+2020-09-15 10:20:01,131 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:20:01,132 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='登录']")
+2020-09-15 10:20:01,665 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/tv_user_nikename')
+2020-09-15 10:20:07,176 - INFO - [nLoginPage.py - __init__ - 12] - 登录页面
+2020-09-15 10:20:07,177 - INFO - [nLoginPage.py - click_close_login - 51] - 点击关闭登录
+2020-09-15 10:20:07,178 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:20:07,178 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/ymtitlebar_left_btn_image')
+2020-09-15 10:20:07,206 - INFO - [homePage.py - __init__ - 17] - 首页
+2020-09-15 10:20:07,207 - INFO - [homePage.py - click_user_navigation - 28] - 点击 “我” 
+2020-09-15 10:20:07,207 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:20:07,207 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='我']")
+2020-09-15 10:20:08,147 - INFO - [goLoginPage.py - __init__ - 13] - 获取去登录页面
+2020-09-15 10:20:08,148 - INFO - [goLoginPage.py - click_go_to_login - 18] - 点击 “已有账号，去登录” 
+2020-09-15 10:20:08,148 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:20:08,148 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/textView1')
+2020-09-15 10:20:09,349 - INFO - [test_bnal_login5.py - test_login_s - 63] - 输入账号:13862867164，输入密码:5201314yx
+2020-09-15 10:20:09,349 - INFO - [nLoginPage.py - __init__ - 12] - 登录页面
+2020-09-15 10:20:09,349 - INFO - [nLoginPage.py - login_operation - 56] - 登录操作
+2020-09-15 10:20:09,350 - INFO - [nLoginPage.py - send_phone - 27] - 输入手机号:13862867164
+2020-09-15 10:20:09,350 - INFO - [base.py - send_ele - 55] - 执行输入动作，输入内容为:13862867164
+2020-09-15 10:20:09,350 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/logon_account_textview')
+2020-09-15 10:20:11,565 - INFO - [nLoginPage.py - send_password - 45] - 输入密码:5201314yx
+2020-09-15 10:20:11,565 - INFO - [base.py - send_ele - 55] - 执行输入动作，输入内容为:5201314yx
+2020-09-15 10:20:11,565 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/logon_password_textview')
+2020-09-15 10:20:12,664 - INFO - [nLoginPage.py - click_login_btn - 17] - 点击登录按钮
+2020-09-15 10:20:12,665 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:20:12,665 - INFO - [base.py - search_ele - 21] - 操作元素:('xpath', "//*[@text='登录']")
+2020-09-15 10:20:13,199 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/tv_user_nikename')
+2020-09-15 10:20:18,732 - INFO - [nLoginPage.py - __init__ - 12] - 登录页面
+2020-09-15 10:20:18,733 - INFO - [nLoginPage.py - click_close_login - 51] - 点击关闭登录
+2020-09-15 10:20:18,733 - INFO - [base.py - click_ele - 43] - 执行点击操作
+2020-09-15 10:20:18,733 - INFO - [base.py - search_ele - 21] - 操作元素:('id', 'com.yunmall.lc:id/ymtitlebar_left_btn_image')

@@ -3,6 +3,8 @@
 """
 import logging
 
+import allure
+
 from Base.base import Base
 from Page.pageElements import PageElements
 
@@ -14,16 +16,19 @@ class HomePage(Base):
         super().__init__()
         logging.info("首页")
 
+    @allure.step("关闭更新")
     def click_close_update(self):
         """点击 'x' """
         logging.info("点击 “x” ")
         self.click_ele(PageElements.close_update)
 
+    @allure.step("点击“我”导航")
     def click_user_navigation(self):
         """点击 '我' 导航"""
         logging.info("点击 “我” ")
         self.click_ele(PageElements.user_navigation)
 
+    @allure.step("获取我 checked属性值")
     def get_user_navigation_checked(self):
         """获取我 checked属性值"""
         logging.info("获取我 checked属性值")

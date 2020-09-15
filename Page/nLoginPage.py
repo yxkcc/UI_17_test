@@ -1,4 +1,6 @@
 """未登录页面元素操作"""
+import allure
+
 from Base.base import Base
 from .pageElements import PageElements
 import logging
@@ -9,11 +11,13 @@ class NLoginPage(Base):
         super().__init__()
         logging.info("登录页面")
 
+    @allure.step("点击登录按钮")
     def click_login_btn(self):
         """点击登录按钮"""
         logging.info("点击登录按钮")
         self.click_ele(PageElements.login_btn)
 
+    @allure.step("输入手机号")
     def send_phone(self, text):
         """
         输入手机号
@@ -31,6 +35,7 @@ class NLoginPage(Base):
         """清空密码"""
         self.clear_ele(PageElements.password_input)
 
+    @allure.step("输入密码")
     def send_password(self, word):
         """
         输入密码
@@ -40,6 +45,7 @@ class NLoginPage(Base):
         logging.info("输入密码:{}".format(word))
         self.send_ele(PageElements.password_input, word)
 
+    @allure.step("点击关闭登录")
     def click_close_login(self):
         """点击关闭登录"""
         logging.info("点击关闭登录")
